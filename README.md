@@ -1,7 +1,3 @@
-#  `holographic_universe`**  
-**📌 Focus: Simulating how fundamental physics emerges from holographic projection constraints.**  
-
-```markdown
 # 🌌 Holographic Universe
 
 ## 📖 Overview
@@ -13,4 +9,3 @@ Using **JAX-based simulations**, we model the **Time-Like Quantum Fluid (TQF)** 
 - 🌀 **Holographic Projection Constraints** → Derive fundamental constants from **Fourier-based projection dynamics.**
 - 🔎 **Quantum Field Encodings** → Investigate how **mass, charge, and forces** emerge from projection constraints.
 
-## 🏗️ Project Structure
