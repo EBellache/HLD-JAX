@@ -44,6 +44,8 @@ $$
 - **SU(N) Symmetries:** Govern internal gauge interactions.
 - **E8 Breaking:** Defines fundamental force emergence from projection.
 
+---
+
 ### **🔹 E8 Breaking and the Holographic Projection Medium**
 The first stage of symmetry breaking:
 
@@ -78,6 +80,8 @@ $$
 - This final breaking **separates time from space**, creating the **holographic substrate**.
 - **The loss of symmetry enforces a time directionality constraint** on the projection.
 - The **one-way speed of light becomes inaccessible**, the two-way speed of light is what we can observe.
+
+---
 
 ### **🔹 Holographic Time-Like Quantum Fluid (TQF)**
 The breaking of **$SU(3)_{\text{Holo}}$** results in:
@@ -182,11 +186,9 @@ We hypothesize that this follows a **gauge-like SU(N) symmetry**, where:
 
 ---
 
-
 ## **🔹 2️⃣ Library Structure**
 
 **TODO**
-
 
 ---
 
