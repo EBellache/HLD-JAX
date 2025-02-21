@@ -97,16 +97,20 @@ print(trajectory[:10])
 ### 🔹 Performance Optimizations
 
 ✅ **JAX Just-In-Time Compilation (@jit) → Converts Python functions into GPU kernels.**
+
 ✅ **Batch Parallelism (vmap) → Allows multi-particle geodesic simulations in parallel.**
+
 ✅ **Optimized Laplacian & Gradients (grad) → Enables efficient contact geometry computations.**
+
 ✅ **Fast GPU Execution (device_put) → Ensures computations are offloaded to NVIDIA GPU**
 
 Example:
 
+```bash
 from jax import device_put
 
 trajectory = device_put(solve_geodesic(x0, v0, metric_tensor))
-
+```
 
 ---
 
