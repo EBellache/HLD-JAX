@@ -68,7 +68,7 @@ $$
 Finally, a final **holographic symmetry breaking** occurs:
 
 $$
-SU(3)_{\text{Holo}} \rightarrow
+SU(3)_{\text{Holo}} \rightarrow SU(2)_{\text{Holo}} \times
 $$
 
 - This final breaking **separates time from space**, creating the **holographic substrate**.
