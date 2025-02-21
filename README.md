@@ -54,11 +54,14 @@ $$
 - The **$SU(3)$** factor represents an internal **projection symmetry**, governing how physics emerges from the holographic substrate.
 - The **$E_6$** sector defines **the observable fundamental interactions**.
 
+
 A second stage of symmetry breaking yields:
+
 
 $$
 E_6 \rightarrow SU(3)_C \times SU(2)_L \times U(1)_Y
 $$
+
 
 - **$SU(3)_C$** (QCD) encodes strong force interactions.
 - **$SU(2)_L$** and **$U(1)_Y$** encode the electroweak interactions.
@@ -78,7 +81,7 @@ The breaking of **$SU(3)_{\text{Holo}}$** results in:
 - **A time-like field that enforces causality inside the projection space.**
 - **The Macroscopic Quantum Potential (MQP) modulating the evolution of projected interactions.**
 
-📌 **Key Prediction:**  
+📌 **Our woking hypothesis:**  
 - The **TQF acts as the missing medium** that encodes fundamental physics while respecting holographic constraints.
 - **Gravity, quantum mechanics, and gauge fields emerge dynamically as artifacts of this broken projection symmetry.**
 
