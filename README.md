@@ -68,7 +68,7 @@ $$
 Finally, a final **holographic symmetry breaking** occurs:
 
 $$
-SU(3)_{\text{Holo}} \rightarrow SU(2)_{\text{Holo}} \times U(1)_{\text{Holo}}
+SU(3)_{\text{Holo}} \rightarrow SU(2)_{\text{Holo}} \times U(1)_{\text{Holo}}$$
 $$
 
 - This final breaking **separates time from space**, creating the **holographic substrate**.
@@ -88,10 +88,6 @@ The breaking of **$SU(3)_{\text{Holo}}$** results in:
 
 ### **Macroscopic Quantum Potential (MQP)**
 The **Macroscopic Quantum Potential (MQP)** is a **modification to geodesic evolution** and **force interactions**:
-
-$$
-SU(3)_{\text{Holo}} \rightarrow SU(2)_{\text{Holo}} \times U(1)_{\text{Holo}}
-$$
 
 $$
 Q(x) = -\frac{\hbar^2}{2m} \frac{\nabla^2 |\Psi|}{|\Psi|}
@@ -146,23 +142,41 @@ $$
 ┃ ┗ 📜 utils.py # Helper functions (FFT, normalization) 
 
 ┣ 📂 contact_geometry 
+
 ┃ ┣ 📜 contact_hamiltonian.py # Contact geometry evolution equations 
+
 ┃ ┣ 📜 mqp_corrections.py # MQP force corrections 
+
 ┃ ┣ 📜 non_abelian_forces.py # SU(3) & SU(2) gauge interaction corrections 
+
 ┃ ┗ 📜 utils.py # Gradients, Lie derivatives 
+
 ┣ 📂 lie_algebra 
+
 ┃ ┣ 📜 lie_tensor_algebra.py # SU(N) & E8 optimized Lie algebra tensors 
+
 ┃ ┣ 📜 symmetry_breaking.py # Force emergence from group decompositions 
+
 ┃ ┣ 📜 gauge_interactions.py # SU(3) QCD, SU(2) Weak force interactions 
+
 ┃ ┗ 📜 utils.py # Exponential maps, group actions 
+
 ┣ 📂 geodesics 
+
 ┃ ┣ 📜 geodesic_solver.py # GPU-accelerated geodesic evolution in holographic projection space 
+
 ┃ ┣ 📜 quantum_trajectories.py # Bohmian particle motion simulation 
+
 ┃ ┗ 📜 utils.py # Fast numerical solvers 
+
 ┣ 📂 simulations 
+
 ┃ ┣ 📜 run_holographic_projection.py # Holographic simulation test 
+
 ┣ 📜 init.py # Package initialization 
+
 ┣ 📜 README.md # Documentation & usage guide 
+
 ┣ 📜 LICENSE # Open-source license 
 
 
