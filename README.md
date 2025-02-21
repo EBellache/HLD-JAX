@@ -79,9 +79,6 @@ Finally, a final **holographic symmetry breaking** occurs:
 
 $$
 SU(3)_{\text{Holo}} \rightarrow
-$$
-
-$$
 SU(2)_H \times U(1)_H
 $$
 
@@ -134,7 +131,7 @@ $$
 D_\mu F^{\mu\nu} = j^\nu, \quad \text{where } D_\mu = \partial_\mu + ig A_\mu
 $$
 
-## **🔹 Holographic Mass as an Alternative to the Higgs Mechanism**
+### **Holographic Mass as an Alternative to the Higgs Mechanism**
 Traditionally, the Higgs field gives mass via spontaneous symmetry breaking:
 
 $$
