@@ -66,10 +66,13 @@ $$
 - **$SU(3)_C$** (QCD) encodes strong force interactions.
 - **$SU(2)_L$** and **$U(1)_Y$** encode the electroweak interactions.
 
+$.$
+
 Finally, a final **holographic symmetry breaking** occurs:
 
-
-$ SU(3)_H \rightarrow SU(2)_H \times U(1)_H $
+$$
+SU(3)_{\text{Holo}} \rightarrow SU(2)_{\text{Holo}} \times U(1)_{\text{Holo}}
+$$
 
 
 - This final breaking **separates time from space**, creating the **holographic substrate**.
