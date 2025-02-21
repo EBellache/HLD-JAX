@@ -2,49 +2,38 @@
 ### **Unifying Quantum Mechanics, Contact Geometry, and Lie Algebra in a High-Performance Computational Framework**
 
 ## 🔹 Overview
-This repository provides a **GPU-accelerated JAX-based framework** for simulating **Holographic Projections, Macroscopic Quantum Potential (MQP), Bohmian Geodesics, and Lie Algebra Symmetries** in fundamental physics.
-
-### **Key Features**
-- **Holographic Fourier Projection (HFP):** Quantum wavefunction emerges as a Fourier projection.
-- **Bohmian Mechanics & Pilot-Wave Theory:** Particles have deterministic trajectories guided by the MQP.
-- **Macroscopic Quantum Potential (MQP):** Governs geodesic motion in projection space.
-- **Contact Geometry & Lie Groups:** Structures quantum evolution and symmetry constraints.
-- **GPU-Accelerated Geodesic Solver:** Computes particle motion with JAX-optimized numerics.
+This repository provides a **GPU-accelerated JAX-based framework** for simulating:
+- **Holographic Projections** via Fourier encoding,
+- **Macroscopic Quantum Potential (MQP)** corrections to force interactions,
+- **Non-Abelian Gauge Interactions (SU(3), SU(2), U(1))** with holographic constraints,
+- **Geodesic Evolution under Holographic Projection Constraints**, and
+- **Contact Geometry Hamiltonian Dynamics**.
 
 ---
 
-## 🔹 Mathematical Foundations
-### **1️⃣ Holographic Fourier Projection (HFP)**
-Quantum mechanics is derived as an **artifact of Fourier interference** from projection constraints:
+## **🔹 1️⃣ Mathematical Foundations**
+### **Holographic Projection & Emergent Quantum Effects**
+The notion that fundamental physics emerges from a deeper reality has long been speculated upon in both scientific and esoteric traditions. The Holographic Fourier Projection (HFP) framework formalizes this idea by suggesting that quantum mechanics, relativity, and fundamental interactions arise as reconstruction artifacts from a projection process governed by an underlying medium: A time-like fluid on which the hologaphic reality is etched by the other standard model fields. Kind of like a holographic plate, but a moving and dynamic one.
+
+In this picture, Quantum mechanics, gauge interactions, and spacetime curvature effects emerge from **holographic projection constraints** via Fourier transforms:
 
 $$
 \Psi(x, t) = \sum_k A_k e^{i(kx - \omega_k t)}
 $$
 
-📌 **Emergent Quantum Effects:**
-- **Wave-Particle Duality:** Interference generates probability densities.
-- **Quantum Foam:** Small-scale interference patterns mimic vacuum fluctuations.
-- **Entanglement:** Phase-locking in Fourier modes correlates nonlocal wavefunctions.
+where:
+- **$\Psi(x, t)$** encodes the **holographic projection of fundamental interactions**,
+- **$A_k$** are Fourier coefficients storing **phase relations** in the projection space,
+- **\( k \)** represents the **wave vector of projected force fields**.
 
-### **2️⃣ Bohmian Mechanics & Deterministic Quantum Evolution**
-Instead of a probabilistic collapse, particles **follow deterministic Bohmian trajectories** governed by:
+**📌 Consequences:**
+- **Wave-Particle Duality** arises as an interference effect.
+- **Quantum Foam** emerges as a small-scale projection instability.
+- **Gauge Bosons** map to projection constraints via **Lie Algebra encoding**.
 
-$$
-v(x,t) = \frac{\hbar}{m} \nabla S
-$$
+---
 
-where $S$ is the **holographically projected wavefunction phase**.
-
-### **3️⃣ Macroscopic Quantum Potential (MQP)**
-The MQP acts as a **guiding potential** modifying geodesic evolution:
-
-$$
-Q(x) = -\frac{\hbar^2}{2m} \frac{\nabla^2 |\Psi|}{|\Psi|}
-$$
-
-This potential is **computed dynamically in the geodesic solver**.
-
-### **4️⃣ Contact Geometry & Lie Algebra Constraints**
+### **Contact Geometry & Lie Algebra Constraints**
 Quantum evolution follows **contact geometry equations**, ensuring non-equilibrium behavior:
 
 $$
@@ -54,6 +43,54 @@ $$
 📌 **Lie Group Contributions:**
 - **SU(N) Symmetries:** Govern internal gauge interactions.
 - **E8 Breaking:** Defines fundamental force emergence from projection.
+
+---
+
+### **Macroscopic Quantum Potential (MQP)**
+The **Macroscopic Quantum Potential (MQP)** is a **modification to geodesic evolution** and **force interactions**:
+
+\[
+Q(x) = -\frac{\hbar^2}{2m} \frac{\nabla^2 |\Psi|}{|\Psi|}
+\]
+
+MQP acts as a **correction term for fundamental interactions**:
+- **Mimics gravitational curvature without requiring additional fields**.
+- **Encodes QCD Confinement via a projected constraint**.
+- **Generates Weak Force Mass Terms instead of requiring a Higgs field**.
+
+---
+
+### **Bohmian Mechanics & Deterministic Quantum Evolution**
+Instead of a probabilistic collapse, particles **follow deterministic Bohmian trajectories** governed by:
+
+$$
+v(x,t) = \frac{\hbar}{m} \nabla S
+$$
+
+where $S$ is the **holographically projected wavefunction phase**.
+
+---
+
+### **Non-Abelian Gauge Interactions & Holographic Projection**
+Non-Abelian gauge forces emerge from **contact geometry constraints**:
+
+$$
+D_\mu F^{\mu\nu} = j^\nu, \quad \text{where } D_\mu = \partial_\mu + ig A_\mu
+$$
+
+📌 **How MQP Affects Non-Abelian Forces:**
+| **Force** | **Gauge Group** | **MQP Correction** | **Effect in Projection Space** |
+|-----------|---------------|------------------|----------------------------|
+| **QCD (Gluons)** | SU(3) | \(\lambda_{\text{QCD}} e^{-r/r_0}\) | **Confinement emerges dynamically** |
+| **Weak Force (W/Z)** | SU(2) | \(\frac{1}{r}\) | **Mass generation (alternative to Higgs)** |
+| **Electromagnetism** | U(1) | None | **Long-range field remains unchanged** |
+| **Gravity (Emergent)** | Contact Geometry | Geodesic Warping | **Holographic curvature correction** |
+
+---
+
+
+## **🔹 2️⃣ Library Structure**
+
 
 ---
 
@@ -74,22 +111,40 @@ To install the required dependencies:
 ```bash
 pip install jax jaxlib numpy scipy matplotlib
 ```
-### 💾 Running a Simulation
 
-Example: Solve a Bohmian geodesic in the projection space
+---
 
-```bash
+## **🔹 Running a Holographic Geodesic Simulation**
+Example: **Simulate holographically projected non-Abelian geodesic motion**
+```python
 import jax.numpy as jnp
 from geodesics.geodesic_solver import solve_geodesic
+from lie_algebra.non_abelian_mqp import corrected_non_abelian_forces
 
-metric_tensor = jnp.eye(4) # Projection space metric
-x0 = jnp.array([0.0, 1.0, 0.0, 0.0]) # Initial position
-v0 = jnp.array([0.1, 0.0, 0.0, 0.1]) # Initial velocity
+# Define gauge field tensor (SU(3), SU(2))
+gauge_field_tensor = jnp.array([
+    [0.1, 0.05, 0.02],
+    [0.05, 0.2, 0.07],
+    [0.02, 0.07, 0.3]
+])
 
-trajectory = solve_geodesic(x0, v0, metric_tensor, num_steps=500, dt=0.005)
+# Define metric tensor in projection space
+metric_tensor = jnp.eye(4)
 
-print("Geodesic Trajectory (First 10 Steps):")
+# Define spatial positions
+x0 = jnp.array([0.0, 1.0, 0.0, 0.0])  
+v0 = jnp.array([0.1, 0.0, 0.0, 0.1])  
+
+# Compute MQP-corrected non-Abelian forces
+corrected_force = corrected_non_abelian_forces(x0, gauge_field_tensor)
+
+# Solve geodesic motion under holographic projection
+trajectory = solve_geodesic(x0, v0, metric_tensor, corrected_force, num_steps=500, dt=0.005)
+
+# Print first few trajectory points
+print("Projected Holographic Geodesic Trajectory:")
 print(trajectory[:10])
+
 ```
 
 ---
