@@ -69,8 +69,9 @@ $$
 Finally, a final **holographic symmetry breaking** occurs:
 
 $$
-SU(3)_{\text{Holo}} \rightarrow SU(2)_{\text{Holo}} \times U(1)_{\text{Holo}}
+SU(3)_{Holo} \rightarrow SU(2)_{Holo} \times U(1)_{Holo}
 $$
+
 
 - This final breaking **separates time from space**, creating the **holographic substrate**.
 - **The loss of symmetry enforces a time directionality constraint** on the projection.
@@ -122,8 +123,8 @@ $$
 📌 **How MQP Affects Non-Abelian Forces:**
 | **Force** | **Gauge Group** | **MQP Correction** | **Effect in Projection Space** |
 |-----------|---------------|------------------|----------------------------|
-| **QCD (Gluons)** | SU(3) | \(\lambda_{\text{QCD}} e^{-r/r_0}\) | **Confinement emerges dynamically** |
-| **Weak Force (W/Z)** | SU(2) | \(\frac{1}{r}\) | **Mass generation (alternative to Higgs)** |
+| **QCD (Gluons)** | SU(3) | $\lambda_{\text{QCD}} e^{-r/r_0}$ | **Confinement emerges dynamically** |
+| **Weak Force (W/Z)** | SU(2) | $\frac{1}{r}$ | **Mass generation (alternative to Higgs)** |
 | **Electromagnetism** | U(1) | None | **Long-range field remains unchanged** |
 | **Gravity (Emergent)** | Contact Geometry | Geodesic Warping | **Holographic curvature correction** |
 
@@ -131,12 +132,52 @@ $$
 
 
 ## **🔹 2️⃣ Library Structure**
+📂 jax_holography 
 
+┣ 📂 holography ┃ 
 
----
+┣ 📜 fourier_projection.py # Fourier-based holographic encoding ┃ 
 
-## 🔹 Library Structure
-**TODO**
+┣ 📜 quantum_artifacts.py # Emergent quantum effects (quantum foam, MQP) 
+
+┃ ┗ 📜 utils.py # Helper functions (FFT, normalization) 
+┣ 📂 contact_geometry ┃ 
+
+┣ 📜 contact_hamiltonian.py # Contact geometry evolution equations 
+
+┃ ┣ 📜 mqp_corrections.py # MQP force corrections 
+
+┃ ┣ 📜 non_abelian_forces.py # SU(3) & SU(2) gauge interaction corrections 
+
+┃ ┗ 📜 utils.py # Gradients, Lie derivatives 
+
+┣ 📂 lie_algebra 
+
+┃ ┣ 📜 lie_tensor_algebra.py # SU(N) & E8 optimized Lie algebra tensors 
+
+┃ ┣ 📜 symmetry_breaking.py # Force emergence from group decompositions 
+
+┃ ┣ 📜 gauge_interactions.py # SU(3) QCD, SU(2) Weak force interactions 
+
+┃ ┗ 📜 utils.py # Exponential maps, group actions 
+
+┣ 📂 geodesics 
+
+┃ ┣ 📜 geodesic_solver.py # GPU-accelerated geodesic evolution in holographic projection space 
+
+┃ ┣ 📜 quantum_trajectories.py # Bohmian particle motion simulation 
+
+┃ ┗ 📜 utils.py # Fast numerical solvers 
+
+┣ 📂 simulations 
+┃ ┣ 📜 run_holographic_projection.py # Holographic simulation test 
+
+┣ 📜 init.py # Package initialization 
+
+┣ 📜 README.md # Documentation & usage guide 
+
+┣ 📜 LICENSE # Open-source license 
+
 
 
 ---
