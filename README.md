@@ -57,25 +57,18 @@ $$
 
 A second stage of symmetry breaking yields:
 
-
 $$
 E_6 \rightarrow SU(3)_C \times SU(2)_L \times U(1)_Y
 $$
 
-
 - **$SU(3)_C$** (QCD) encodes strong force interactions.
 - **$SU(2)_L$** and **$U(1)_Y$** encode the electroweak interactions.
 
-$.$
 
-Finally, a final **holographic symmetry breaking** occurs:
-
-$.$
+Finally, a final holographic symmetry breaking occurs:
 
 $$
-
 SU(3)_{\text{Holo}} \rightarrow SU(2)_{\text{Holo}} \times U(1)_{\text{Holo}}
-
 $$
 
 - This final breaking **separates time from space**, creating the **holographic substrate**.
@@ -137,9 +130,13 @@ $$
 
 
 ## **🔹 2️⃣ Library Structure**
+
 📂 jax_holography 
+
 ┣ 📂 holography ┃ 
-┣ 📜 fourier_projection.py # Fourier-based holographic encoding ┃ 
+
+┣ 📜 fourier_projection.py # Fourier-based holographic encoding ┃
+
 ┣ 📜 quantum_artifacts.py # Emergent quantum effects (quantum foam, MQP) 
 ┃ ┗ 📜 utils.py # Helper functions (FFT, normalization) 
 ┣ 📂 contact_geometry ┃ 
