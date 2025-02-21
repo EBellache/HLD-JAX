@@ -33,14 +33,14 @@ $$
 v(x,t) = \frac{\hbar}{m} \nabla S
 $$
 
-where \( S \) is the **holographically projected wavefunction phase**.
+where $S$ is the **holographically projected wavefunction phase**.
 
 ### **3️⃣ Macroscopic Quantum Potential (MQP)**
 The MQP acts as a **guiding potential** modifying geodesic evolution:
 
-\[
+$$
 Q(x) = -\frac{\hbar^2}{2m} \frac{\nabla^2 |\Psi|}{|\Psi|}
-\]
+$$
 
 This potential is **computed dynamically in the geodesic solver**.
 
