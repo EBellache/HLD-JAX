@@ -37,7 +37,15 @@ where:
 Quantum evolution follows **contact geometry equations**, ensuring non-equilibrium behavior:
 
 $$
-\frac{dq}{dt} = \frac{\partial H}{\partial p}, \quad \frac{dp}{dt} = -\frac{\partial H}{\partial q} + \lambda p, \quad \frac{dS}{dt} = p \frac{dq}{dt} - H
+\frac{dq}{dt} = \frac{\partial H}{\partial p}
+$$
+
+$$
+\frac{dp}{dt} = -\frac{\partial H}{\partial q} + \lambda p
+$$
+
+$$
+\frac{dS}{dt} = p \frac{dq}{dt} - H
 $$
 
 📌 **Lie Group Contributions:**
@@ -130,7 +138,7 @@ $$
 Traditionally, the Higgs field gives mass via spontaneous symmetry breaking:
 
 $$
-SU(2)_L \times U(1)_Y \rightarrow U(1)_{\text{EM}}
+SU(2)_L \times U(1)_Y \rightarrow U(1)_E
 $$
 
 However, in the **Holographic Projection Model**, mass emerges dynamically from the **Macroscopic Quantum Potential (MQP)** rather than from a Higgs field:
