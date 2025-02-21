@@ -67,9 +67,9 @@ $$
 
 Finally, a final **holographic symmetry breaking** occurs:
 
-$$
-SU(3)_{\text{Holo}} \rightarrow SU(2)_{\text{Holo}}
-$$
+
+$SU(3)_{\text{Holo}} \rightarrow$   $SU(2)_{\text{Holo}}$ $\times$
+
 
 - This final breaking **separates time from space**, creating the **holographic substrate**.
 - **The loss of symmetry enforces a time directionality constraint** on the projection.
