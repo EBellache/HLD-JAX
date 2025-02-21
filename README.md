@@ -65,7 +65,7 @@ $$
 - **$SU(2)_L$** and **$U(1)_Y$** encode the electroweak interactions.
 
 
-Finally, a final holographic symmetry breaking occurs:
+Finally, a final **holographic symmetry breaking** occurs:
 
 $$
 SU(3)_{\text{Holo}} \rightarrow SU(2)_{\text{Holo}} \times U(1)_{\text{Holo}}
@@ -88,6 +88,10 @@ The breaking of **$SU(3)_{\text{Holo}}$** results in:
 
 ### **Macroscopic Quantum Potential (MQP)**
 The **Macroscopic Quantum Potential (MQP)** is a **modification to geodesic evolution** and **force interactions**:
+
+$$
+SU(3)_{\text{Holo}} \rightarrow SU(2)_{\text{Holo}} \times U(1)_{\text{Holo}}
+$$
 
 $$
 Q(x) = -\frac{\hbar^2}{2m} \frac{\nabla^2 |\Psi|}{|\Psi|}
@@ -133,14 +137,16 @@ $$
 
 📂 jax_holography 
 
-┣ 📂 holography ┃ 
+┣ 📂 holography 
 
-┣ 📜 fourier_projection.py # Fourier-based holographic encoding ┃
+┃ ┣ 📜 fourier_projection.py # Fourier-based holographic encoding 
 
-┣ 📜 quantum_artifacts.py # Emergent quantum effects (quantum foam, MQP) 
+┃ ┣ 📜 quantum_artifacts.py # Emergent quantum effects (quantum foam, MQP) 
+
 ┃ ┗ 📜 utils.py # Helper functions (FFT, normalization) 
-┣ 📂 contact_geometry ┃ 
-┣ 📜 contact_hamiltonian.py # Contact geometry evolution equations 
+
+┣ 📂 contact_geometry 
+┃ ┣ 📜 contact_hamiltonian.py # Contact geometry evolution equations 
 ┃ ┣ 📜 mqp_corrections.py # MQP force corrections 
 ┃ ┣ 📜 non_abelian_forces.py # SU(3) & SU(2) gauge interaction corrections 
 ┃ ┗ 📜 utils.py # Gradients, Lie derivatives 
