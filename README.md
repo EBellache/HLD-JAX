@@ -55,19 +55,19 @@ $$
 $$
 
 $$
-\frac{dp'}{dt} = -\frac{\partial H}{\partial k} + \lambda_p p' - \text{substrate lattice pressure} \cdot k
+\frac{dp'}{dt} = -\frac{\partial H}{\partial k} + \lambda_p p' - Q_{\text{MQP}}
 $$
 
 where:
 - **$p' = p - A$** is the gauge-invariant momentum.
 - **$H(k, p')$** is the reciprocal Hamiltonian function.
-- **$\lambda_p$** is a dissipation coefficient.
-- **Substrate lattice pressure modifies wave dynamics, encoding memory effects.**
+- **$Q_{\text{MQP}}$** is the **Macroscopic Quantum Potential correction**, replacing direct substrate lattice effects.
 
 🚀 **Implications**:  
-- **Quantum trajectories evolve dynamically in Fourier space**.
-- **Interactions with the substrate lattice influence phase-space flow**.
-- **Gauge fields modify how waves propagate, creating solitonic confinement.**
+- **Only MQP affects mass-related motion**, avoiding unwanted force effects from the substrate lattice.
+- **The substrate lattice memory modifies gauge field imprinting, not direct dynamics.**
+- **Higher self-interacting gauge fields modify the lattice more, making them better for long-term memory storage.**
+
 
 ---
 
@@ -105,8 +105,15 @@ where:
 - **Quantum Time Irreversibility:** The arrow of time emerges because of **memory accumulation in the quantum vacuum**.
 
 ---
+Gauge Symmetry	Self-Interaction	Lattice Coupling	Memory Persistence
+U(1) (Bioelectricity)	Weak	Free-flowing, minimal interaction	Short-term memory (fast decay).
+SU(2) (Epigenetics)	Moderate	Forms solitonic structures (switch-like behavior)	Intermediate memory persistence.
+SU(3) (Genome & QCD)	Strong	Confined, bound states in memory lattice	Long-term memory storage (genetic imprints).
 
-### **3️🚀 5. The MQP: A Driver Toward Equilibrium**
+
+---
+
+### **🚀 5. The MQP: A Driver Toward Equilibrium**
 The **Macroscopic Quantum Potential (MQP)** organizes the system into an ideal fractal structure:
 
 $$
@@ -127,11 +134,11 @@ $$
 ### **🚀 6. Solitons in Gauge Fields: SU(2) and SU(3)**
 Gauge fields interact with the **substrate lattice differently based on their self-interaction strength**:
 
-| **Gauge Symmetry** | **Self-Interaction** | **Lattice Coupling** | **Physical Example** |
+| **Gauge Symmetry** | **Self-Interaction** | **Lattice Coupling** | **Physical Example** | **Memory Persistence** |
 |--------------------|--------------------|--------------------|--------------------|
-| **U(1) (Bioelectricity)** | Weak | Free-flowing, minimal interaction | **Tissue polarity gradients** |
-| **SU(2) (Epigenetics)** | Moderate | Forms solitonic structures (switch-like behavior) | **Gene activation/repression (on/off states)** |
-| **SU(3) (Genome & QCD)** | Strong | Confined, bound states in memory lattice | **Codon structure, hadron formation** |
+| **U(1) (Bioelectricity & electromagnetism )** | Weak | Free-flowing, minimal interaction | **Tissue polarity gradients** | **Short-term memory (fast decay)** |
+| **SU(2) (Epigenetics & weak force)** | Moderate | Forms solitonic structures (switch-like behavior) | **Gene activation/repression (on/off states)** | **Intermediate memory persistence** |
+| **SU(3) (Genome & QCD)** | Strong | Confined, bound states in memory lattice | **Codon structure, hadron formation** | **Long-term memory storage (genetic imprints)** |
 
 🚀 **Key Insight:**  
 - **Highly non-Abelian fields self-localize** into solitonic excitations.
@@ -164,34 +171,7 @@ where:
 
 ---
 
-## **🚀 Implementation & Codebase**
-### **1️⃣ Substrate Lattice Memory Model**
-```python
-import jax.numpy as jnp
-from jax import jit
-
-@jit
-def update_lattice_memory(
-    substrate_lattice_state, new_memory, gamma=0.9
-):
-    """
-    Updates the substrate lattice by applying a moving average process.
-
-    Args:
-        substrate_lattice_state (jax.numpy.array): The persistent memory lattice.
-        new_memory (jax.numpy.array): New imprint stored in memory.
-        gamma (float): Memory persistence constant.
-
-    Returns:
-        jax.numpy.array: Updated lattice state with memory persistence.
-    """
-    updated_lattice = gamma * substrate_lattice_state + (1 - gamma) * new_memory
-    return updated_lattice
-```
-
----
-
 ## 🚀 Future Work
-- Experimental validation of MQP + memory field in bioelectric systems.
-- Scaling laws in substrate lattices and material science.
-- SU(3) confinement effects in genetic and quantum systems.
+- **Experimental validation of MQP + memory field in bioelectric systems.**
+- **Scaling laws in substrate lattices and material science.**
+- **SU(3) confinement effects in genetic and quantum systems.**
