@@ -1,1 +1,0 @@
-from fourier_projection import holographic_projection, compute_quantum_foam
