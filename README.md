@@ -48,7 +48,7 @@ HLD-JAX is built upon the idea that two fundamental symmetry breakings created t
 ---
 
 ## **🚀 3. The Reciprocal Hamiltonian: System Evolution in Fourier Space**
-Instead of solving dynamics in real space, we evolve **wavevector \( k \) and momentum \( p \)** using a **reciprocal space Hamiltonian**:
+Instead of solving dynamics in real space, we evolve **wavevector $k$ and momentum $p$** using a **reciprocal space Hamiltonian**:
 
 $$
 \frac{dk}{dt} = \frac{\partial H}{\partial p'}
@@ -111,10 +111,10 @@ $$
 Gauge fields interact with the **substrate lattice differently based on their self-interaction strength**:
 
 | **Gauge Symmetry** | **Self-Interaction** | **Lattice Coupling** | **Physical Example** | **Memory Persistence** |
-|--------------------|--------------------|--------------------|--------------------|
-| **U(1) (Bioelectricity & electromagnetism )** | Weak | Free-flowing, minimal interaction | **Tissue polarity gradients** | **Short-term memory (fast decay)** |
-| **SU(2) (Epigenetics & weak force)** | Moderate | Forms solitonic structures (switch-like behavior) | **Gene activation/repression (on/off states)** | **Intermediate memory persistence** |
-| **SU(3) (Genome & QCD)** | Strong | Confined, bound states in memory lattice | **Codon structure, hadron formation** | **Long-term memory storage (genetic imprints)** |
+|--------------------|--------------------|--------------------|--------------------|--------------------|
+| **U(1) (Bioelectricity & electromagnetism )** | Weak | Free-flowing, minimal interaction | **Tissue polarity gradients** | **Short-term memory (fast decay)**. |
+| **SU(2) (Epigenetics & weak force)** | Moderate | Forms solitonic structures (switch-like behavior) | **Gene activation/repression (on/off states)** | **Intermediate memory persistence**. |
+| **SU(3) (Genome & QCD)** | Strong | Confined, bound states in memory lattice | **Codon structure, hadron formation** | **Long-term memory storage (genetic imprints)**. |
 
 🚀 **Key Insight:**  
 - **Highly non-Abelian fields self-localize** into solitonic excitations.
