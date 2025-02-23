@@ -47,7 +47,26 @@ HLD-JAX is built upon the idea that two fundamental symmetry breakings created t
 
 ---
 
-## **🚀 3. The Reciprocal Hamiltonian: System Evolution in Fourier Space**
+### **🚀 3. The Substrate Lattice as a Memory Field**
+The **substrate lattice** does not act as a force but as a **memory function**, storing past states with a moving average:
+
+$$
+L(x, t) = \gamma L(x, t-1) + (1 - \gamma) M(x, t)
+$$
+
+where:
+- **$\gamma$ (Memory Persistence Constant)** controls **how strongly past states are retained**.
+- If **$\gamma \to 0$**, the system is **always in equilibrium**.
+- If **$\gamma \gg 0$**, memory dominates, leading to **aging and phase-space freezing**.
+
+🚀 **Real-World Examples:**
+- **Planarian Worms & Regeneration:** The memory field may explain why **bistability appears** in regenerative experiments.
+- **Supercooled Materials:** Materials with long-term structural memory behave similarly to the **lattice memory effect**.
+- **Quantum Time Irreversibility:** The arrow of time emerges because of **memory accumulation in the quantum vacuum**.
+
+---
+
+## **🚀 4. The Reciprocal Hamiltonian: System Evolution in Fourier Space**
 Instead of solving dynamics in real space, we evolve **wavevector $k$ and momentum $p$** using a **reciprocal space Hamiltonian**:
 
 $$
@@ -70,26 +89,7 @@ where:
 
 ---
 
-### **🚀 3. The Substrate Lattice as a Memory Field**
-The **substrate lattice** does not act as a force but as a **memory function**, storing past states with a moving average:
-
-$$
-L(x, t) = \gamma L(x, t-1) + (1 - \gamma) M(x, t)
-$$
-
-where:
-- **$\gamma$ (Memory Persistence Constant)** controls **how strongly past states are retained**.
-- If **$\gamma \to 0$**, the system is **always in equilibrium**.
-- If **$\gamma \gg 0$**, memory dominates, leading to **aging and phase-space freezing**.
-
-🚀 **Real-World Examples:**
-- **Planarian Worms & Regeneration:** The memory field may explain why **bistability appears** in regenerative experiments.
-- **Supercooled Materials:** Materials with long-term structural memory behave similarly to the **lattice memory effect**.
-- **Quantum Time Irreversibility:** The arrow of time emerges because of **memory accumulation in the quantum vacuum**.
-
----
-
-### **🚀 4. The MQP: A Driver Toward Equilibrium**
+### **🚀 5. The MQP: A Driver Toward Equilibrium**
 The **Macroscopic Quantum Potential (MQP)** organizes the system into an ideal fractal structure:
 
 $$
@@ -107,7 +107,7 @@ $$
 
 ---
 
-### **🚀 5. Solitons in Gauge Fields: SU(2) and SU(3)**
+### **🚀 6. Solitons in Gauge Fields: SU(2) and SU(3)**
 Gauge fields interact with the **substrate lattice differently based on their self-interaction strength**:
 
 | **Gauge Symmetry** | **Self-Interaction** | **Lattice Coupling** | **Physical Example** | **Memory Persistence** |
@@ -123,7 +123,7 @@ Gauge fields interact with the **substrate lattice differently based on their se
 
 ---
 
-### **🚀 6. Free Energy as a Measure of Memory Smearing**
+### **🚀 7. Free Energy as a Measure of Memory Smearing**
 Free energy **isn't just about thermodynamics**—in this model, it emerges from the competition between **MQP-driven order and substrate lattice memory smearing**.
 
 $$
