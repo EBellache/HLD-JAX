@@ -68,26 +68,9 @@ where:
 - **The substrate lattice memory modifies gauge field imprinting, not direct dynamics.**
 - **Higher self-interacting gauge fields modify the lattice more, making them better for long-term memory storage.**
 
-
 ---
 
-## **🚀 Theoretical Foundations**
-### **1️⃣ The Two Time-Like Symmetry Breakings**
-HLD-JAX is built upon the idea that two fundamental symmetry breakings created the observed structure of reality:
-
-| **Symmetry Breaking** | **Effect on the System** |
-|----------------------|----------------------|
-| **First Time Symmetry Breaking** | Created a **memory field** in the substrate lattice, enforcing irreversibility. |
-| **Second Time Symmetry Breaking** | Created the **MQP**, a self-organizing potential driving the system toward an ideal fractal equilibrium. |
-
-**🚀 Key Insight:**  
-- If memory persistence were **zero**, the system would remain in a perfect multi-scale equilibrium.
-- Free energy **only exists because memory accumulates over time, smearing phase space.**
-- **Aging is a result of excessive memory accumulation, reducing the system's ability to self-organize.**
-
----
-
-### **🚀 4. The Substrate Lattice as a Memory Field**
+### **🚀 3. The Substrate Lattice as a Memory Field**
 The **substrate lattice** does not act as a force but as a **memory function**, storing past states with a moving average:
 
 $$
@@ -105,15 +88,8 @@ where:
 - **Quantum Time Irreversibility:** The arrow of time emerges because of **memory accumulation in the quantum vacuum**.
 
 ---
-Gauge Symmetry	Self-Interaction	Lattice Coupling	Memory Persistence
-U(1) (Bioelectricity)	Weak	Free-flowing, minimal interaction	Short-term memory (fast decay).
-SU(2) (Epigenetics)	Moderate	Forms solitonic structures (switch-like behavior)	Intermediate memory persistence.
-SU(3) (Genome & QCD)	Strong	Confined, bound states in memory lattice	Long-term memory storage (genetic imprints).
 
-
----
-
-### **🚀 5. The MQP: A Driver Toward Equilibrium**
+### **🚀 4. The MQP: A Driver Toward Equilibrium**
 The **Macroscopic Quantum Potential (MQP)** organizes the system into an ideal fractal structure:
 
 $$
@@ -131,7 +107,7 @@ $$
 
 ---
 
-### **🚀 6. Solitons in Gauge Fields: SU(2) and SU(3)**
+### **🚀 5. Solitons in Gauge Fields: SU(2) and SU(3)**
 Gauge fields interact with the **substrate lattice differently based on their self-interaction strength**:
 
 | **Gauge Symmetry** | **Self-Interaction** | **Lattice Coupling** | **Physical Example** | **Memory Persistence** |
@@ -147,7 +123,7 @@ Gauge fields interact with the **substrate lattice differently based on their se
 
 ---
 
-### **🚀 7. Free Energy as a Measure of Memory Smearing**
+### **🚀 6. Free Energy as a Measure of Memory Smearing**
 Free energy **isn't just about thermodynamics**—in this model, it emerges from the competition between **MQP-driven order and substrate lattice memory smearing**.
 
 $$
