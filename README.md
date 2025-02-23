@@ -1,4 +1,4 @@
-# HLD-JAX: Holographic Lattice & Dynamics in JAX
+# HLD-JAX: Holographic Learning Dynamics in JAX
 
 ## **Overview**
 HLD-JAX is a **scientific computing framework** implementing **Holographic Fourier Projection Methods** for **bioelectricity, material science, and fundamental physics** using JAX. 
@@ -112,8 +112,8 @@ Gauge fields interact with the **substrate lattice differently based on their se
 
 | **Gauge Symmetry** | **Self-Interaction** | **Lattice Coupling** | **Physical Example** | **Memory Persistence** |
 |--------------------|--------------------|--------------------|--------------------|--------------------|
-| **U(1) (Bioelectricity & electromagnetism )** | Weak | Free-flowing, minimal interaction | **Tissue polarity gradients** | **Short-term memory (fast decay)**. |
-| **SU(2) (Epigenetics & weak force)** | Moderate | Forms solitonic structures (switch-like behavior) | **Gene activation/repression (on/off states)** | **Intermediate memory persistence**. |
+| **U(1) (Bioelectricity & electromagnetism )** | Weak | Free-flowing, minimal interaction | **Tissue polarity gradients, photons** | **Short-term memory (fast decay)**. |
+| **SU(2) (Epigenetics & weak force)** | Moderate | Forms solitonic structures (switch-like behavior) | **Gene activation/repression (on/off states), (W,Z) bosons** | **Intermediate memory persistence**. |
 | **SU(3) (Genome & QCD)** | Strong | Confined, bound states in memory lattice | **Codon structure, hadron formation** | **Long-term memory storage (genetic imprints)**. |
 
 🚀 **Key Insight:**  
@@ -147,7 +147,32 @@ where:
 
 ---
 
+## **🔹Contributing**
+We welcome contributions in:
+
+- Holographic simulations of gauge symmetries
+- Quantum-inspired bioelectric models
+- Testing MQP corrections on real datasets
+
+📬 Contact: Open an issue on GitHub!
+
+---
+
 ## 🚀 Future Work
 - **Experimental validation of MQP + memory field in bioelectric systems.**
 - **Scaling laws in substrate lattices and material science.**
 - **SU(3) confinement effects in genetic and quantum systems.**
+
+---
+
+## **References & Further Reading**
+- **Holographic Projection Physics**: 🔗 [Fourier Transform & Holography](https://en.wikipedia.org/wiki/Fourier_optics)
+- **Fourier-Based Lattice Defects**:[Quantum Memory in Crystals](https://phys.org/news/2025-02-quantum-advancement-crystal-gaps-terabyte.html)
+- **Scale Relativity and Fractal Space-Time**: [Scale Relativity](https://www.worldscientific.com/worldscibooks/10.1142/p752?srsltid=AfmBOoqk9hW7VOamubhqeTzA4moq7D4ZSp2RDl6fRMNJ7XawNGL_1pKI#t=aboutBook)
+- **Macroscopic Quantum Potential** : 🔗 [Macroscopic quantum-type potentials](https://arxiv.org/abs/1306.4311)
+- **Numerical Simulation of an artificially induced macroscopic quantum behavior**: 🔗 [Oscillating Wave Packet](https://luth2.obspm.fr/~luthier/nottale//arIJMPC12.pdf)
+- **Kozyrev’s Time Theory**: 🔗 [Kozyrev’s Theory of Time](https://www.researchgate.net/publication/344839308_Nikolai_Kozyrev_His_Theory_of_Time_and_the_True_Position_of_Stars)  
+- **macroscopic quantum coherence in the brain**: [quantum coherence in the brain](https://www.frontiersin.org/journals/physics/articles/10.3389/fphy.2023.1181416/full)
+- **Gyorgy Buzsaki. Rhythms of the Brain**: [Rhythms of the Brain.](https://neurophysics.ucsd.edu/courses/physics_171/Buzsaki%20G.%20Rhythms%20of%20the%20brain.pdf)
+
+
