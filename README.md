@@ -110,7 +110,7 @@ Each of these gauge fields is encoded within the tetrad lattice, governing how m
 
 
 ## **6. Free Energy and Sparsification**
-- **Mathematics:** Free energy is defined as:
+- **Mathematics:** Free energy is defined here as:
   
   $F = U - TS - \lambda \sum_k |A_k|^p$
   
@@ -118,6 +118,7 @@ Each of these gauge fields is encoded within the tetrad lattice, governing how m
   - $U$ is internal energy.
   - $S$ is entropy from phase accumulation.
   - $\lambda \sum_k |A_k|^p$ enforces sparsification constraints.
+  - $\lambda = 0$ means no spasification, and we go back the usual free energy definition
   
 - **Entropy Reduction via Sparsification:** By removing unnecessary memory states outside symmetry axes, free energy can be **restored.**
 - **Physics Example:** **Filtered tomographic reconstruction removes noise and restores useful signal information.**
