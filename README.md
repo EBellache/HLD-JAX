@@ -76,7 +76,7 @@ Each of these gauge fields is encoded within the tetrad lattice, governing how m
 - **Biology Example:** **Neural wave propagation in bioelectric tissues** functions as a solitonic information storage mechanism.
 
 
-### ** 4️⃣ Reciprocal Hamiltonian Dynamics** (Gauge-Constrained Field Evolution)
+### **4️⃣ Reciprocal Hamiltonian Dynamics** (Gauge-Constrained Field Evolution)
 - **Mathematics:** Evolution equations governing **Fourier-space Hamiltonians with lattice pressure corrections**.
 - The **reciprocal Hamiltonian** governs how wavevector $k$ and conjugate momentum $p$ evolve:
 
