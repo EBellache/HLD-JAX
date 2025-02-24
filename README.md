@@ -10,42 +10,23 @@ Contributions are highly welcome!
 ## **Core Mathematical Framework**
 The **HLD-JAX core** is built on six key mathematical components:
 
-### **1️⃣ Hyperbolic Wavelets Transform** (Self-Similar Decomposition)
+### **1. Hyperbolic Wavelets Transform** (Self-Similar Decomposition)
 - **Mathematics:** Uses Fibonacci scaling in hyperbolic wavelet transforms to analyze **self-similar structures** in field dynamics, hyberbolic wavelets are **robust to anisotropic systems**.
 - **Physics Example:** **Cosmological structure formation** follows fractal-like distributions that can be analyzed via Fibonacci wavelets.
 - **Material Science Example:** **Spin-lattice interactions in quasicrystals** exhibit Fibonacci-order periodicity, making them ideal candidates for wavelet decomposition.
 - **Biology Example:** **Bioelectric signaling in regenerative organisms** shows self-organizing wave behaviors that can be mapped via Fibonacci wavelets.
 
-### **2️⃣ Solitonic Wave Equations** (Nonlinear Wave Propagation)
+---
+
+### **2. Solitonic Wave Equations** (Nonlinear Wave Propagation)
 - **Mathematics:** Describes how nonlinear waves behave in a deformable lattice, leading to **topological stability** and **holographic memory encoding**.
 - **Physics Example:** **Gauge field interactions in early-universe inflation models** exhibit solitonic-like behavior.
 - **Material Science Example:** **Magnon excitations in topological insulators** behave as spin solitons, forming localized structures that propagate within a medium.
 - **Biology Example:** **Neural wave propagation in bioelectric tissues** functions as a solitonic information storage mechanism.
 
+---
 
-### **3️⃣ Reciprocal Hamiltonian Dynamics** (Gauge-Constrained Field Evolution)
-- **Mathematics:** Evolution equations governing **Fourier-space Hamiltonians with lattice pressure corrections**.
-- The **reciprocal Hamiltonian** governs how wavevector $k$ and conjugate momentum $p$ evolve:
-
-```math
-  \frac{dk}{dt} = \frac{\partial H}{\partial p'}
-```
-
-```math
-  \frac{dp'}{dt} = -\frac{\partial H}{\partial k} + \lambda_p p' - P_{\text{lattice}}
-```
-
-  where:
-  - $H(k, p')$ is the **Hamiltonian function** governing system evolution.
-  - $p' = p - A$ is the **gauge-invariant momentum**.
-  - $P_{\text{lattice}}$ represents the **lattice pressure correction** arising from holographic constraints.
-- **Physics Example:** **Quantum field theory in curved spacetime** requires reciprocal space analysis for renormalization and holographic dualities.
-- **Material Science Example:** **Band structure calculations for condensed matter systems** use reciprocal Hamiltonians to determine electronic transport properties.
-- **Biology Example:** **Reaction-diffusion models of cellular signaling** can be analyzed through reciprocal space dynamics.
-
-
-
-### **4️⃣ Tetrad Lattice and U(1) Phase Symmetry Breaking** (Memory Through Time Symmetry Breaking)
+### **3. Tetrad Lattice and U(1) Phase Symmetry Breaking** (Memory Breaks Time Symmetry)
 - **Mathematics:** The tetrad lattice evolves with an applied **U(1) phase shift**.
 - The tetrads $e^a_\mu$ represent local frames of reference, evolving as:
 
@@ -62,7 +43,81 @@ The **HLD-JAX core** is built on six key mathematical components:
 - **Material Science Example:** **Charge transport in disordered lattices exhibits time asymmetry due to phase decoherence.**
 - **Biology Example:** **Aging is a consequence of accumulated phase decoherence in biological memory storage.**
 
-### **5️⃣ Decomposing E8 Gauge Symmetry into Fundamental Fields** (The Five Fundamental Gauge Fields)
+---
+
+## **4. Free Energy and Sparsification** (Memory Capacity Restoration via Sparsity)
+- **Mathematics:** Free energy is defined as:
+  
+  $F = U - TS - \lambda \sum_k |A_k|^p$
+  
+  where:
+  - $U$ is internal energy.
+  - $S$ is entropy arising from phase accumulation, calculated as:
+
+    $S = -\sum_i P_i \log P_i$
+    
+    where:
+    
+  - $P_i$ represents the normalized phase distribution of the system. This measures **how uniformly phase information is distributed across the tetrad lattice**, capturing the degree of coherence loss.
+  
+  - $T$ is a **temperature-like scalar**, interpreted as a **U(1) coupling strength** that modulates phase diffusion and entropy growth. A higher $T$ leads to faster information decoherence and stronger time asymmetry effects.
+ 
+  - $\lambda \sum_k |A_k|^p$ enforces sparsification constraints, reducing redundant memory states outside primary symmetry axes.
+  
+- **Entropy Reduction via Sparsification:** By removing unnecessary memory states outside symmetry axes, free energy can be **restored.**
+
+- **Physics Example:** Filtered tomographic reconstruction removes noise and restores useful signal information.
+ 
+- **Material Science Example:** Optimized material design in photonics ensures wave interference suppression outside primary propagation axes. Anisotropy and sparsification could potentially be utilised in cold atom lattices too, to build bettter quantum computers for example.
+
+- **Biology Example:** **Sparsification of bioelectric signals may potentially be enabling regenerative states to reset aging phenotypes in certain organisms.**
+
+---
+
+### **5. Memory States as Stable Geodesic Paths** (The core idea at the center of the HLD framewok!!)
+
+  #### **The memory as path dependence principle:**
+
+- **Mathematics:** In a structured bioelectric or physical system, **memory corresponds to stable geodesic paths** in the underlying tetradic space. These geodesics define the **least-action pathways of bioelectric, metabolic, or informational flows**, ensuring long-term stability of encoded states.
+
+- **Memory Loss as Smearing:** When external perturbations or entropy accumulation disrupt geodesic trajectories, the system transitions from **stable geodesic memory encoding to a path integral formulation**:
+
+  
+  $P(x) = \int \mathcal{D}[x] e^{-S[x]/\hbar}$
+  
+  where:
+  
+  - **$P(x)$** represents the probabilistic spread of possible pathways.
+  
+  - **$S[x]$** is the action integral defining geodesic stability.
+  
+  - **$\hbar$** regulates how strong perturbations must be to induce smearing.
+  
+- **Restoring Memory = Geodesic Realignment:** If **a perturbed system is returned to its original geodesic path**, memory and function can be restored. This principle underlies:
+  
+  - **Planarian regeneration (bioelectric geodesic correction).**
+  
+  - **Neural sparsification during sleep (optimal geodesic restoration).**
+  
+  - **Cold atom quantum computing (error correction via geodesic retracing).**
+
+#### **Geodesic Evolution and Perturbation Handling**
+
+- **Mathematics:** Geodesics satisfy:
+  
+  $\frac{d x^\mu}{d \tau} + \Gamma^\mu_{\nu\lambda} \frac{dx^\nu}{d\tau} \frac{dx^\lambda}{d\tau} = 0$
+  
+  where **$\Gamma^\mu_{\nu\lambda}$** defines local curvature corrections in the memory space.
+  
+- **Handling Perturbations:** External forces deform the geodesic structure, requiring correction mechanisms:
+
+  $\delta x^\mu = \int_0^T \delta \Gamma^\mu_{\nu\lambda} d\tau$
+  
+- **Restoring Stability:** Techniques such as **bioelectric stimulation, sparsification, or phase resetting** can return trajectories to their original geodesics, preventing **irreversible smearing.**
+
+---
+
+### **6. Decomposing E8 Gauge Symmetry into Fundamental Fields** (The Five Fundamental Gauge Fields)
 The fundamental gauge fields in HLD-JAX originate from **E8 symmetry breaking** through sequential reductions, leading to five gauge interactions:
 
 #### **➤ E8 Symmetry Breaking Cascade**
@@ -108,34 +163,6 @@ These breakdowns yield the five gauge symmetries encoding **physical, material, 
 
 Each of these gauge fields is encoded within the tetrad lattice, governing how memory states propagate and self-organize. Understanding these reductions enables the application of HLD-JAX across diverse scientific domains.
 
-
-## **6. Free Energy and Sparsification** (Memory Capacity Restoration via Sparsity Enforcement)
-- **Mathematics:** Free energy is defined as:
-  
-  $F = U - TS - \lambda \sum_k |A_k|^p$
-  
-  where:
-  - $U$ is internal energy.
-  - $S$ is entropy arising from phase accumulation, calculated as:
-
-    $S = -\sum_i P_i \log P_i$
-    
-    where:
-    
-  - $P_i$ represents the normalized phase distribution of the system. This measures **how uniformly phase information is distributed across the tetrad lattice**, capturing the degree of coherence loss.
-  
-  - $T$ is a **temperature-like scalar**, interpreted as a **U(1) coupling strength** that modulates phase diffusion and entropy growth. A higher $T$ leads to faster information decoherence and stronger time asymmetry effects.
- 
-  - $\lambda \sum_k |A_k|^p$ enforces sparsification constraints, reducing redundant memory states outside primary symmetry axes.
-  
-- **Entropy Reduction via Sparsification:** By removing unnecessary memory states outside symmetry axes, free energy can be **restored.**
-
-- **Physics Example:** Filtered tomographic reconstruction removes noise and restores useful signal information.
- 
-- **Material Science Example:** Optimized material design in photonics ensures wave interference suppression outside primary propagation axes. Anisotropy and sparsification could potentially be utilised in cold atom lattices too, to build bettter quantum computers for example.
-
-- **Biology Example:** **Sparsification of bioelectric signals may potentially be enabling regenerative states to reset aging phenotypes in certain organisms.**
-
 ---
 
 ## **Installation**
@@ -153,12 +180,15 @@ from hldjax import fibonacci_wavelets, holographic_projection
 coeffs, freqs = fibonacci_wavelets.fibonacci_wavelet_transform(signal)
 ```
 
+---
+
 ## **Documentation**
 - **`docs/core/`** → **Mathematical documentation** (wavelets, solitons, reciprocal Hamiltonians).
 - **`docs/applications/physics/`** → Gauge theory, cosmology, quantum fields.
 - **`docs/applications/materials/`** → Magnonics, metamaterials, photonic lattices.
 - **`docs/applications/biology/`** → Bioelectricity, developmental biology, holographic encoding in living systems.
 
+---
 
 ## **Recommended Reading**
 - **Loop Quantum Gravity & Tetrad Geometry:** *Rovelli, C. "Quantum Gravity."*
@@ -171,6 +201,8 @@ coeffs, freqs = fibonacci_wavelets.fibonacci_wavelet_transform(signal)
 - **E8 Lie Group & Unification Theories:** *Lisi, A. "An Exceptionally Simple Theory of Everything."*
 - **Cryptic Worm Paper & Bioelectric Memory:** *Fallon's cryptic worm paper*
 - **Nikolai Kozyrev’s Theory of Time as a Lattice:** *Kozyrev, N. "Causal Mechanics and Time Structure."*
+
+---
 
 ## **Contributions**
 See `CONTRIBUTIONS.md` for details on how to contribute to the project. We welcome insights from physics, materials science, and biology experts to expand the reach of HLD-JAX!
