@@ -16,12 +16,15 @@ The **HLD-JAX core** is built on six key mathematical components:
 - **Material Science Example:** **Spin-lattice interactions in quasicrystals** exhibit Fibonacci-order periodicity, making them ideal candidates for wavelet decomposition.
 - **Biology Example:** **Bioelectric signaling in regenerative organisms** shows self-organizing wave behaviors that can be mapped via Fibonacci wavelets.
 
+---
+
 ### **2. Solitonic Wave Equations** (Nonlinear Wave Propagation)
 - **Mathematics:** Describes how nonlinear waves behave in a deformable lattice, leading to **topological stability** and **holographic memory encoding**.
 - **Physics Example:** **Gauge field interactions in early-universe inflation models** exhibit solitonic-like behavior.
 - **Material Science Example:** **Magnon excitations in topological insulators** behave as spin solitons, forming localized structures that propagate within a medium.
 - **Biology Example:** **Neural wave propagation in bioelectric tissues** functions as a solitonic information storage mechanism.
 
+---
 
 ### **3. Tetrad Lattice and U(1) Phase Symmetry Breaking** (Memory Breaks Time Symmetry)
 - **Mathematics:** The tetrad lattice evolves with an applied **U(1) phase shift**.
@@ -40,6 +43,7 @@ The **HLD-JAX core** is built on six key mathematical components:
 - **Material Science Example:** **Charge transport in disordered lattices exhibits time asymmetry due to phase decoherence.**
 - **Biology Example:** **Aging is a consequence of accumulated phase decoherence in biological memory storage.**
 
+---
 
 ## **4. Free Energy and Sparsification** (Memory Capacity Restoration via Sparsity)
 - **Mathematics:** Free energy is defined as:
