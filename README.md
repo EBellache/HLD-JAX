@@ -55,9 +55,7 @@ The **HLD-JAX core** is built on four key mathematical components:
 - The tetrads \( e^a_\mu \) represent local frames of reference, evolving as:
 
 ```math
-  \[
   e' = e + \alpha \cdot \text{deformation} + e^{i\theta} e
-  \]
 ```
   
   where:
