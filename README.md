@@ -117,6 +117,7 @@ Each of these gauge fields is encoded within the tetrad lattice, governing how m
   where:
   - $U$ is internal energy.
   - $S$ is entropy from phase accumulation.
+  - $T$ a temperature-like scalar increasing the effect of entropy
   - $\lambda \sum_k |A_k|^p$ enforces sparsification constraints.
   - $\lambda = 0$ means no spasification, and we go back the usual free energy definition
   
