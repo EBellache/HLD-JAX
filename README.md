@@ -33,13 +33,13 @@ The **HLD-JAX core** is built on four key mathematical components:
 - **Mathematics:** Evolution equations governing **Fourier-space Hamiltonians with lattice pressure corrections**.
 - The **reciprocal Hamiltonian** governs how wavevector $k$ and conjugate momentum $p$ evolve:
 
-  $$
+  $
   \frac{dk}{dt} = \frac{\partial H}{\partial p'}
-  $$
+  $
   
-  $$
+  $
   \frac{dp'}{dt} = -\frac{\partial H}{\partial k} + \lambda_p p' - P_{\text{lattice}}
-  $$
+  $
   
   where:
   - $H(k, p')$ is the **Hamiltonian function** governing system evolution.
@@ -51,12 +51,11 @@ The **HLD-JAX core** is built on four key mathematical components:
 
 ### **4️⃣ Tetrad Lattice Evolution and U(1) Phase Symmetry Breaking**
 - **Mathematics:** The tetrad lattice evolves with an applied **U(1) phase shift**.
-- 
 - The tetrads $e^a_\mu$ represent local frames of reference, evolving as:
 
-  $$
+  $
   e' = e + \alpha \cdot \text{deformation} + e^{i\theta} e
-  $$
+  $
   
   where:
   - $\alpha$ is a deformation scaling factor.
