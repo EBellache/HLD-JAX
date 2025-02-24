@@ -129,8 +129,11 @@ Each of these gauge fields is encoded within the tetrad lattice, governing how m
   - $\lambda \sum_k |A_k|^p$ enforces sparsification constraints, reducing redundant memory states outside primary symmetry axes.
   
 - **Entropy Reduction via Sparsification:** By removing unnecessary memory states outside symmetry axes, free energy can be **restored.**
+- 
 - **Physics Example:** **Filtered tomographic reconstruction removes noise and restores useful signal information.**
-- **Material Science Example:** Optimized material design in photonics ensures wave interference suppression outside primary propagation axes. This anisotropy could potentially be utilised in cold atom lattices too, to build bettter quantum computers for example
+- 
+- **Material Science Example:** Optimized material design in photonics ensures wave interference suppression outside primary propagation axes. Anisotropy and sparsification could potentially be utilised in cold atom lattices too, to build bettter quantum computers for example.
+- 
 - **Biology Example:** **Sparsification of bioelectric signals may potentially be enabling regenerative states to reset aging phenotypes in certain organisms.**
 
 ---
