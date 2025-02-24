@@ -82,7 +82,7 @@ The **HLD-JAX core** is built on four key mathematical components:
 
 ## **Installation**
 ```bash
-git clone https://github.com/yourrepo/HLD-JAX.git
+git clone https://github.com/EBellache/HLD-JAX
 cd HLD-JAX
 pip install -r requirements.txt
 ```
@@ -101,8 +101,21 @@ coeffs, freqs = fibonacci_wavelets.fibonacci_wavelet_transform(signal)
 - **`docs/applications/materials/`** → Magnonics, metamaterials, photonic lattices.
 - **`docs/applications/biology/`** → Bioelectricity, developmental biology, holographic encoding in living systems.
 
-## **Contributions & Contact**
-We welcome contributions! Please see `CONTRIBUTING.md` for guidelines. Reach out via issues or discussions.
+
+## **Recommended Reading**
+- **Loop Quantum Gravity & Tetrad Geometry:** *Rovelli, C. "Quantum Gravity."*
+- **Self-Interaction and Solitonic Waves:** *Zakharov, V. "Solitons and Nonlinear Waves."*
+- **All-Optical Control of Charge-Trapping Defects:** *Relevant papers on rare-earth doped oxides.*
+- **Magnon and Spin Waves:** *Stancil, D. "Spin Waves: Theory and Applications."*
+- **Scale Relativity & Macroscopic Quantum Potential:** *Nottale, L. "Scale Relativity and Fractal Space-Time."*
+- **Rhythms of the Brain:** *Buzsáki, G. "Rhythms of the Brain."*
+- **E8 Lie Group & Unification Theories:** *Lisi, A. "An Exceptionally Simple Theory of Everything."*
+- **Cryptic Worm Paper & Bioelectric Memory:** *Fallon's cryptic worm paper*
+- **Nikolai Kozyrev’s Theory of Time as a Lattice:** *Kozyrev, N. "Causal Mechanics and Time Structure."*
+
+## **Contributions**
+See `CONTRIBUTIONS.md` for details on how to contribute to the project. We welcome insights from physics, materials science, and biology experts to expand the reach of HLD-JAX!
 
 🚀 **HLD-JAX is a unified computational framework for understanding self-organizing structures in physics, materials, and biology. Let’s redefine holographic memory states together!**
+
 
