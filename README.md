@@ -8,7 +8,7 @@ HLD-JAX provides a **general-purpose mathematical framework** for studying **how
 Contributions are highly welcome!
 
 ## **Core Mathematical Framework**
-The **HLD-JAX core** is built on four key mathematical components:
+The **HLD-JAX core** is built on six key mathematical components:
 
 ### **1️⃣ Fibonacci Wavelet Transform** (Self-Similar Decomposition)
 - **Mathematics:** Uses Fibonacci scaling in wavelet transforms to analyze **self-similar structures** in field dynamics.
