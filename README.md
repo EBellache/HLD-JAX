@@ -23,23 +23,23 @@ The fundamental gauge fields in HLD-JAX originate from **E8 symmetry breaking** 
 The gauge structure of E8 breaks as follows:
 
 1. **E8 → SU(3) × E6** (Initial breaking)
-2. **E6 → SU(3) × SU(2) × U(1) × SU(2) × U(1)** (Final breakdown of E6)
+2. **E6 → SU(3) × SU(2) × U(1)** (Final breakdown of E6)
 3. **The remaining SU(3) further decomposes into SU(2) × U(1), leading to five fundamental interactions.**
 
 📌 **Decomposition Diagram:**
 ```
-      E8
-     /  \
-  SU(3)  E6
-         /  \
-    SU(3)  SU(2) x U(1) x SU(2) x U(1)
+           E8
+     /            \
+  SU(3)           E6
+   /  \        /      \
+SU(2)  U(1)  SU(3)  SU(2) x U(1)
 ```
 
 📌 **E6 Breakdown:**
 ```
       E6
      /  \
-  SU(3)  SU(2) x U(1) x SU(2) x U(1)
+  SU(3)  SU(2) x U(1)
 ```
 
 📌 **Final SU(3) Reduction:**
