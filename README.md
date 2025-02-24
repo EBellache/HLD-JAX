@@ -109,7 +109,7 @@ These breakdowns yield the five gauge symmetries encoding **physical, material, 
 Each of these gauge fields is encoded within the tetrad lattice, governing how memory states propagate and self-organize. Understanding these reductions enables the application of HLD-JAX across diverse scientific domains.
 
 
-## **6. Free Energy and Sparsification** (Form Regeneration via Sparsity Enforcement)
+## **6. Free Energy and Sparsification** (Memory Restoration via Sparsity Enforcement)
 - **Mathematics:** Free energy is defined as:
   
   $F = U - TS - \lambda \sum_k |A_k|^p$
