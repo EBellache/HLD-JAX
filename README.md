@@ -105,7 +105,7 @@ coeffs, freqs = fibonacci_wavelets.fibonacci_wavelet_transform(signal)
 ## **Recommended Reading**
 - **Loop Quantum Gravity & Tetrad Geometry:** *Rovelli, C. "Quantum Gravity."*
 - **Self-Interaction and Solitonic Waves:** *Zakharov, V. "Solitons and Nonlinear Waves."*
-- **All-Optical Control of Charge-Trapping Defects:** *Relevant papers on rare-earth doped oxides.*
+- **All-Optical Control of Charge-Trapping Defects:** *All-optical control of charge-trapping defects in rare-earth doped oxides.* https://doi.org/10.1515/nanoph-2024-0635
 - **Magnon and Spin Waves:** *Stancil, D. "Spin Waves: Theory and Applications."*
 - **Scale Relativity & Macroscopic Quantum Potential:** *Nottale, L. "Scale Relativity and Fractal Space-Time."*
 - **Rhythms of the Brain:** *Buzsáki, G. "Rhythms of the Brain."*
