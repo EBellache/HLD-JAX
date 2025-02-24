@@ -55,9 +55,9 @@ These breakdowns yield the five gauge symmetries encoding **physical, material, 
 | **Gauge Symmetry** | **Physics** | **Materials** | **Biology** |
 |-----------------|------------|-------------|------------|
 | **U(1)** | Electromagnetism, charge conservation | Topological insulators | Bioelectricity |
-| **SU(2)** | Weak interactions, tetrads in Loop Quantum Gravity ([Rovelli, Quantum Gravity]) | Spin wave propagation in materials | Epigenetic switching |
+| **SU(2)** | Weak interactions,  | Spin wave propagation in materials | Epigenetic switching |
 | **SU(3)** | Quantum Chromodynamics (QCD), strong interactions | Superconducting flux qubits | Genetic codon structure |
-| **Additional SU(2)** | Loop quantum gravity | Magnonic transport in antiferromagnets | ATP/ADP cycling in energy systems |
+| **Additional SU(2)** | Tetrads in Loop Quantum Gravity ([Rovelli, Quantum Gravity]) | Magnonic transport in antiferromagnets | ATP/ADP cycling in energy systems |
 | **Additional U(1)** | Irreversibility, entropy growth | Charge transport in disordered systems | Aging and regenerative constraints |
 
 Each of these gauge fields is encoded within the tetrad lattice, governing how memory states propagate and self-organize. Understanding these reductions enables the application of HLD-JAX across diverse scientific domains.
