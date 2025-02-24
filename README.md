@@ -45,7 +45,7 @@ The **HLD-JAX core** is built on six key mathematical components:
 
 
 
-### **4️⃣ Tetrad Lattice Evolution and U(1) Phase Symmetry Breaking** (Memory as a time symmetry breaking mechanism)
+### **4️⃣ Tetrad Lattice and U(1) Phase Symmetry Breaking** (To remember, is to break time symmetry)
 - **Mathematics:** The tetrad lattice evolves with an applied **U(1) phase shift**.
 - The tetrads $e^a_\mu$ represent local frames of reference, evolving as:
 
