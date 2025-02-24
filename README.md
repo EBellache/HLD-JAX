@@ -72,16 +72,17 @@ The **HLD-JAX core** is built on six key mathematical components:
 
 ### **Memory States as Stable Geodesic Paths**
 
-#### **The key idea behind the HLD-JAX framewok**
+  #### **The key idea at the center of the HLD-JAX framewok!!**
 
 - **Mathematics:** In a structured bioelectric or physical system, **memory corresponds to stable geodesic paths** in the underlying tetradic space. These geodesics define the **least-action pathways of bioelectric, metabolic, or informational flows**, ensuring long-term stability of encoded states.
-- 
+
 - **Memory Loss as Smearing:** When external perturbations or entropy accumulation disrupt geodesic trajectories, the system transitions from **stable geodesic memory encoding to a path integral formulation**:
 
   
   $P(x) = \int \mathcal{D}[x] e^{-S[x]/\hbar}$
   
   where:
+  
   - **$P(x)$** represents the probabilistic spread of possible pathways.
   
   - **$S[x]$** is the action integral defining geodesic stability.
@@ -89,19 +90,23 @@ The **HLD-JAX core** is built on six key mathematical components:
   - **$\hbar$** regulates how strong perturbations must be to induce smearing.
   
 - **Restoring Memory = Geodesic Realignment:** If **a perturbed system is returned to its original geodesic path**, memory and function can be restored. This principle underlies:
+  
   - **Planarian regeneration (bioelectric geodesic correction).**
+  
   - **Neural sparsification during sleep (optimal geodesic restoration).**
+  
   - **Cold atom quantum computing (error correction via geodesic retracing).**
 
 #### **Geodesic Evolution and Perturbation Handling**
+
 - **Mathematics:** Geodesics satisfy:
   
   $\frac{d x^\mu}{d \tau} + \Gamma^\mu_{\nu\lambda} \frac{dx^\nu}{d\tau} \frac{dx^\lambda}{d\tau} = 0$
   
-  where **$Gamma^\mu_{\nu\lambda}$** defines local curvature corrections in the memory space.
+  where **$\Gamma^\mu_{\nu\lambda}$** defines local curvature corrections in the memory space.
   
 - **Handling Perturbations:** External forces deform the geodesic structure, requiring correction mechanisms:
-- 
+
   $\delta x^\mu = \int_0^T \delta \Gamma^\mu_{\nu\lambda} d\tau$
   
 - **Restoring Stability:** Techniques such as **bioelectric stimulation, sparsification, or phase resetting** can return trajectories to their original geodesics, preventing **irreversible smearing.**
