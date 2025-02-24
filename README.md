@@ -110,22 +110,30 @@ Each of these gauge fields is encoded within the tetrad lattice, governing how m
 
 
 ## **6. Free Energy and Sparsification**
-- **Mathematics:** Free energy is defined here as:
+- **Mathematics:** Free energy is defined as:
   
   $F = U - TS - \lambda \sum_k |A_k|^p$
   
   where:
   - $U$ is internal energy.
-  - $S$ is entropy from phase accumulation.
-  - $T$ a temperature-like scalar increasing the effect of entropy
-  - $\lambda \sum_k |A_k|^p$ enforces sparsification constraints.
-  - $\lambda = 0$ means no spasification, and we go back the usual free energy definition
+  - $S$ is entropy arising from phase accumulation, calculated as:
+
+    $S = -\sum_i P_i \log P_i$
+    
+    where:
+    
+  - $P_i$ represents the normalized phase distribution of the system. This measures **how uniformly phase information is distributed across the tetrad lattice**, capturing the degree of coherence loss.
+  
+  - $T$ is a **temperature-like scalar**, interpreted as a **U(1) coupling strength** that modulates phase diffusion and entropy growth. A higher $T$ leads to faster information decoherence and stronger time asymmetry effects.
+ 
+  - $\lambda \sum_k |A_k|^p$ enforces sparsification constraints, reducing redundant memory states outside primary symmetry axes.
   
 - **Entropy Reduction via Sparsification:** By removing unnecessary memory states outside symmetry axes, free energy can be **restored.**
 - **Physics Example:** **Filtered tomographic reconstruction removes noise and restores useful signal information.**
 - **Material Science Example:** **Optimized material design in photonics ensures wave interference suppression outside primary propagation axes.**
-- **Biology Example:** **Sparsification of bioelectric signals may enable one day regenerative states to reset aging phenotypes.**
+- **Biology Example:** **Sparsification of bioelectric signals may potentially be enabling regenerative states to reset aging phenotypes in certain organisms.**
 
+---
 
 ## **Installation**
 ```bash
