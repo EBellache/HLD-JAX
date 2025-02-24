@@ -33,13 +33,9 @@ The **HLD-JAX core** is built on four key mathematical components:
 - The **reciprocal Hamiltonian** governs how wavevector \( k \) and conjugate momentum \( p \) evolve:
 
 ```math
-  \[
   \frac{dk}{dt} = \frac{\partial H}{\partial p'}
-  \]
 
-  \[
   \frac{dp'}{dt} = -\frac{\partial H}{\partial k} + \lambda_p p' - P_{\text{lattice}}
-  \]
 ```
 
   where:
@@ -52,7 +48,7 @@ The **HLD-JAX core** is built on four key mathematical components:
 
 ### **4️⃣ Tetrad Lattice Evolution and U(1) Phase Symmetry Breaking**
 - **Mathematics:** The tetrad lattice evolves with an applied **U(1) phase shift**.
-- The tetrads \( e^a_\mu \) represent local frames of reference, evolving as:
+- The tetrads $e^a_\mu$ represent local frames of reference, evolving as:
 
 ```math
   e' = e + \alpha \cdot \text{deformation} + e^{i\theta} e
@@ -69,12 +65,8 @@ The **HLD-JAX core** is built on four key mathematical components:
 
 ## **5️⃣ Free Energy and Sparsification**
 - **Mathematics:** Free energy is defined as:
-
-  ```math
-  \[
-  F = U - TS - \lambda \sum_k |A_k|^p
-  \]
-  ```
+  
+  $F = U - TS - \lambda \sum_k |A_k|^p$
   
   where:
   - $U$ is internal energy.
