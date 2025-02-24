@@ -3,7 +3,9 @@
 ## **Overview**
 HLD-JAX (**Holographic Learning Dynamics**) is a computational framework for modeling **holographic memory states** using advanced mathematical methods including **Fibonacci wavelets, solitonic wave equations, reciprocal Hamiltonian dynamics, and gauge field projections on tetradic lattices**. The library is substrate and force-field agnostic, applying to **physics, material science, and biology**, as long as the system follows **tetradic symmetries and gauge constraints**.
 
-HLD-JAX provides a **general-purpose mathematical framework** for studying **how information encodes, propagates, and interacts with a structured lattice**. This library serves as a **computational manual for holographic encoding**, analogous to a **modern-day philosopher's stone** for understanding complex systems.
+HLD-JAX provides a **general-purpose mathematical framework** for studying **how information encodes, propagates, and interacts with a structured lattice**. This library has the ambition of one day serving as a **computational manual for holographic encoding**, analogous to a **modern-day philosopher's stone** for understanding complex systems. 
+
+Outisde contributions are highly welcome! A jouney of a thousand miles begins with the first step.
 
 ## **Core Mathematical Framework**
 The **HLD-JAX core** is built on four key mathematical components:
@@ -22,15 +24,57 @@ The **HLD-JAX core** is built on four key mathematical components:
 
 ### **3️⃣ Reciprocal Hamiltonian Dynamics** (Gauge-Constrained Field Evolution)
 - **Mathematics:** Evolution equations governing **Fourier-space Hamiltonians with lattice pressure corrections**.
+- The **reciprocal Hamiltonian** governs how wavevector $k$ and conjugate momentum $p$ evolve:
+
+  $$
+  \frac{dk}{dt} = \frac{\partial H}{\partial p'}
+  $$
+  
+  $$
+  \frac{dp'}{dt} = -\frac{\partial H}{\partial k} + \lambda_p p' - P_{\text{lattice}}
+  $$
+  
+  where:
+  - $H(k, p')$ is the **Hamiltonian function** governing system evolution.
+  - $p' = p - A$ is the **gauge-invariant momentum**.
+  - $P_{\text{lattice}}$ represents the **lattice pressure correction** arising from holographic constraints.
+  - 
 - **Physics Example:** **Quantum field theory in curved spacetime** requires reciprocal space analysis for renormalization and holographic dualities.
 - **Material Science Example:** **Band structure calculations for condensed matter systems** use reciprocal Hamiltonians to determine electronic transport properties.
 - **Biology Example:** **Reaction-diffusion models of cellular signaling** can be analyzed through reciprocal space dynamics.
 
-### **4️⃣ Gauge Field Projections on Tetradic Lattices** (Structured Memory Encoding)
-- **Mathematics:** Projects **U(1), SU(2), and SU(3) gauge fields** onto a deformable tetrad lattice to analyze **information storage in structured fields**.
-- **Physics Example:** **Quantum chromodynamics (QCD) confinement mechanisms** can be analyzed via SU(3) projections onto a lattice.
-- **Material Science Example:** **Optical altermagnets exhibit gauge-like symmetries**, where SU(2)-like interactions determine the topological properties of the material.
-- **Biology Example:** **Epigenetic memory states in DNA expression** might follow an SU(2) gauge projection on an underlying bioelectric lattice.
+### **4️⃣ Tetrad Lattice Evolution and U(1) Phase Symmetry Breaking**
+- **Mathematics:** The tetrad lattice evolves with an applied **U(1) phase shift**.
+- The tetrads $e^a_\mu$ represent local frames of reference, evolving as:
+
+  $$
+  e' = e + \alpha \cdot \text{deformation} + e^{i\theta} e
+  $$
+  
+  where:
+  - $\alpha$ is a deformation scaling factor.
+  - $e^{i\theta}$ enforces **U(1) phase accumulation, breaking time symmetry**.
+- **Entropy and Causality:** The **irreversibility of time** emerges because phase shifts accumulate, leading to **entropy growth as a smearing effect**.
+- **Physics Example:** **Black hole event horizons encode information loss via phase accumulation.**
+- **Material Science Example:** **Charge transport in disordered lattices exhibits time asymmetry due to phase decoherence.**
+- **Biology Example:** **Aging is a consequence of accumulated phase decoherence in biological memory storage.**
+
+## **5️⃣ Free Energy and Sparsification**
+- **Mathematics:** Free energy is defined as:
+
+  $$
+  F = U - TS - \lambda \sum_k |A_k|^p
+  $$
+  where:
+  
+  - $U$ is internal energy.
+  - $S$ is entropy from phase accumulation.
+  - $\lambda \sum_k |A_k|^p$ enforces sparsification constraints.
+
+- **Entropy Reduction via Sparsification:** By removing unnecessary memory states outside symmetry axes, free energy can be **restored.**
+- **Physics Example:** **Filtered tomographic reconstruction removes noise and restores useful signal information.**
+- **Material Science Example:** **Optimized material design in photonics ensures wave interference suppression outside primary propagation axes.**
+- **Biology Example:** **Sparsification of bioelectric signals enables regenerative states to reset aging phenotypes.**
 
 ## **Installation**
 ```bash
