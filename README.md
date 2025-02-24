@@ -66,9 +66,9 @@ The **HLD-JAX core** is built on four key mathematical components:
 ## **5️⃣ Free Energy and Sparsification**
 - **Mathematics:** Free energy is defined as:
 
-  $$
+  ```math
   F = U - TS - \lambda \sum_k |A_k|^p
-  $$
+  ```
 
   where:
   - $U$ is internal energy.
