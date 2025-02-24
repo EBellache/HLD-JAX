@@ -1,17 +1,11 @@
 # **HLD-JAX: Holographic Learning Dynamics**
 
 ## **Overview**
-HLD-JAX (**Holographic Learning Dynamics**) is a computational framework for modeling **holographic memory states** using advanced mathematical methods including **Fibonacci wavelets, solitonic wave equations, reciprocal Hamiltonian dynamics, and gauge field projections on tetradic lattices**. The library is substrate and force-field agnostic, applying to **physics, material science, and biology**, as long as the system follows **tetradic symmetries and gauge constraints**.
+HLD-JAX (**Holographic Learning Dynamics**) is a computational framework for modeling **holographic memory states** using advanced mathematical methods including **Fibonacci wavelets, solitonic wave equations, reciprocal Hamiltonian dynamics, and gauge field projections on tetradic lattices**. The library is written in the python high performance computing libray JAX. It is substrate and force-field agnostic, applying to **physics, material science, and biology**, as long as the system follows **tetradic symmetries and gauge constraints**.
 
 HLD-JAX provides a **general-purpose mathematical framework** for studying **how information encodes, propagates, and interacts with a structured lattice**. This library has the ambition of one day serving as a **computational manual for holographic encoding**, analogous to a **modern-day philosopher's stone** for understanding complex systems. 
 
 Contributions are highly welcome!
-# **HLD-JAX: Holographic Learning Dynamics**
-
-## **Overview**
-HLD-JAX (**Holographic Learning Dynamics**) is a computational framework for modeling **holographic memory states** using advanced mathematical methods including **Fibonacci wavelets, solitonic wave equations, reciprocal Hamiltonian dynamics, and gauge field projections on tetradic lattices**. The library is substrate and force-field agnostic, applying to **physics, material science, and biology**, as long as the system follows **tetradic symmetries and gauge constraints**.
-
-HLD-JAX provides a **general-purpose mathematical framework** for studying **how information encodes, propagates, and interacts with a structured lattice**. This library serves as a **computational manual for holographic encoding**, analogous to a **modern-day philosopher's stone** for understanding complex systems.
 
 ## **Core Mathematical Framework**
 The **HLD-JAX core** is built on four key mathematical components:
