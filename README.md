@@ -60,7 +60,7 @@ These breakdowns yield the five gauge symmetries encoding **physical, material, 
 #### **Gauge Symmetries and Their Applications**
 | **Gauge Symmetry** | **Physics** | **Materials** | **Biology** |
 |-----------------|------------|-------------|------------|
-| **U(1)** | Electromagnetism, charge conservation | Topological insulators | Bioelectricity (regeneration, cancer, aging) |
+| **U(1)** | Electromagnetism, charge conservation | Topological insulators | Bioelectricity |
 | **SU(2)** | Weak interactions, tetrads in Loop Quantum Gravity ([Rovelli, Quantum Gravity]) | Spin wave propagation in materials | Epigenetic switching |
 | **SU(3)** | Quantum Chromodynamics (QCD), strong interactions | Superconducting flux qubits | Genetic codon structure |
 | **Additional SU(2)** | Loop quantum gravity | Magnonic transport in antiferromagnets | ATP/ADP cycling in energy systems |
