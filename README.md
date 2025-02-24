@@ -53,9 +53,9 @@ The **HLD-JAX core** is built on four key mathematical components:
 - **Mathematics:** The tetrad lattice evolves with an applied **U(1) phase shift**.
 - The tetrads $e^a_\mu$ represent local frames of reference, evolving as:
 
-  $
+  $$
   e' = e + \alpha \cdot \text{deformation} + e^{i\theta} e
-  $
+  $$
   
   where:
   - $\alpha$ is a deformation scaling factor.
