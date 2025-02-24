@@ -45,7 +45,7 @@ The **HLD-JAX core** is built on six key mathematical components:
 
 
 
-### **4️⃣ Tetrad Lattice Evolution and U(1) Phase Symmetry Breaking**
+### **4️⃣ Tetrad Lattice Evolution and U(1) Phase Symmetry Breaking** (Memory as a time symmetry breaking mechanism)
 - **Mathematics:** The tetrad lattice evolves with an applied **U(1) phase shift**.
 - The tetrads $e^a_\mu$ represent local frames of reference, evolving as:
 
@@ -62,7 +62,7 @@ The **HLD-JAX core** is built on six key mathematical components:
 - **Material Science Example:** **Charge transport in disordered lattices exhibits time asymmetry due to phase decoherence.**
 - **Biology Example:** **Aging is a consequence of accumulated phase decoherence in biological memory storage.**
 
-### **5️⃣ Decomposing E8 Gauge Symmetry into Five Fundamental Fields**
+### **5️⃣ Decomposing E8 Gauge Symmetry into Five Fundamental Fields** (Five fundamental Gauge Fields)
 The fundamental gauge fields in HLD-JAX originate from **E8 symmetry breaking** through sequential reductions, leading to five gauge interactions:
 
 #### **➤ E8 Symmetry Breaking Cascade**
@@ -109,7 +109,7 @@ These breakdowns yield the five gauge symmetries encoding **physical, material, 
 Each of these gauge fields is encoded within the tetrad lattice, governing how memory states propagate and self-organize. Understanding these reductions enables the application of HLD-JAX across diverse scientific domains.
 
 
-## **6. Free Energy and Sparsification**
+## **6. Free Energy and Sparsification** (Form regeneration via sparsity enforcement)
 - **Mathematics:** Free energy is defined as:
   
   $F = U - TS - \lambda \sum_k |A_k|^p$
