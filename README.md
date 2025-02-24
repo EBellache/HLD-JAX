@@ -70,7 +70,7 @@ The **HLD-JAX core** is built on six key mathematical components:
 
 ---
 
-### **Memory States as Stable Geodesic Paths** (The key idea at the center of the HLD-JAX framewok!!)
+### **Memory States as Stable Geodesic Paths** (The core idea at the center of the HLD framewok!!)
 
   #### **The memory as path dependence principle:**
 
