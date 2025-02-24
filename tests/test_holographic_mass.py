@@ -1,6 +1,6 @@
 import pytest
 import jax.numpy as jnp
-from src.holographic_mass import compute_holographic_mass
+from core.holographic_mass import compute_holographic_mass
 
 
 def test_compute_holographic_mass():

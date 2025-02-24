@@ -1,6 +1,6 @@
 import pytest
 import jax.numpy as jnp
-from src.gauge_reciprocal_hamiltonian import (
+from core.gauge_reciprocal_hamiltonian import (
     gauge_covariant_momentum,
     gauge_reciprocal_hamiltonian,
 )

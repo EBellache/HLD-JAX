@@ -1,5 +1,5 @@
 import jax.numpy as jnp
-from src.substrate_lattice import (
+from core.substrate_lattice import (
     update_lattice_memory,
     apply_lattice_field_interaction,
     process_lattice_interaction,

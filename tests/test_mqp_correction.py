@@ -1,6 +1,6 @@
 import pytest
 import jax.numpy as jnp
-from src.mqp_correction import compute_emergent_potential
+from core.mqp_correction import compute_emergent_potential
 
 
 def test_compute_emergent_potential():
