@@ -10,20 +10,20 @@ Contributions are highly welcome!
 ## **Core Mathematical Framework**
 The **HLD-JAX core** is built on six key mathematical components:
 
-### **1️⃣ Hyperbolic Wavelets Transform** (Self-Similar Decomposition)
+### **1. Hyperbolic Wavelets Transform** (Self-Similar Decomposition)
 - **Mathematics:** Uses Fibonacci scaling in hyperbolic wavelet transforms to analyze **self-similar structures** in field dynamics, hyberbolic wavelets are **robust to anisotropic systems**.
 - **Physics Example:** **Cosmological structure formation** follows fractal-like distributions that can be analyzed via Fibonacci wavelets.
 - **Material Science Example:** **Spin-lattice interactions in quasicrystals** exhibit Fibonacci-order periodicity, making them ideal candidates for wavelet decomposition.
 - **Biology Example:** **Bioelectric signaling in regenerative organisms** shows self-organizing wave behaviors that can be mapped via Fibonacci wavelets.
 
-### **2️⃣ Solitonic Wave Equations** (Nonlinear Wave Propagation)
+### **2. Solitonic Wave Equations** (Nonlinear Wave Propagation)
 - **Mathematics:** Describes how nonlinear waves behave in a deformable lattice, leading to **topological stability** and **holographic memory encoding**.
 - **Physics Example:** **Gauge field interactions in early-universe inflation models** exhibit solitonic-like behavior.
 - **Material Science Example:** **Magnon excitations in topological insulators** behave as spin solitons, forming localized structures that propagate within a medium.
 - **Biology Example:** **Neural wave propagation in bioelectric tissues** functions as a solitonic information storage mechanism.
 
 
-### **4️⃣ Tetrad Lattice and U(1) Phase Symmetry Breaking** (Memory Breaks Time Symmetry)
+### **3. Tetrad Lattice and U(1) Phase Symmetry Breaking** (Memory Breaks Time Symmetry)
 - **Mathematics:** The tetrad lattice evolves with an applied **U(1) phase shift**.
 - The tetrads $e^a_\mu$ represent local frames of reference, evolving as:
 
@@ -41,7 +41,7 @@ The **HLD-JAX core** is built on six key mathematical components:
 - **Biology Example:** **Aging is a consequence of accumulated phase decoherence in biological memory storage.**
 
 
-## **6. Free Energy and Sparsification** (Memory Capacity Restoration via Sparsity)
+## **4. Free Energy and Sparsification** (Memory Capacity Restoration via Sparsity)
 - **Mathematics:** Free energy is defined as:
   
   $F = U - TS - \lambda \sum_k |A_k|^p$
@@ -70,7 +70,7 @@ The **HLD-JAX core** is built on six key mathematical components:
 
 ---
 
-### **Memory States as Stable Geodesic Paths** (The core idea at the center of the HLD framewok!!)
+### **5. Memory States as Stable Geodesic Paths** (The core idea at the center of the HLD framewok!!)
 
   #### **The memory as path dependence principle:**
 
@@ -113,7 +113,7 @@ The **HLD-JAX core** is built on six key mathematical components:
 
 ---
 
-### **Decomposing E8 Gauge Symmetry into Fundamental Fields** (The Five Fundamental Gauge Fields)
+### **6. Decomposing E8 Gauge Symmetry into Fundamental Fields** (The Five Fundamental Gauge Fields)
 The fundamental gauge fields in HLD-JAX originate from **E8 symmetry breaking** through sequential reductions, leading to five gauge interactions:
 
 #### **➤ E8 Symmetry Breaking Cascade**
