@@ -16,7 +16,53 @@ The **HLD-JAX core** is built on four key mathematical components:
 - **Material Science Example:** **Spin-lattice interactions in quasicrystals** exhibit Fibonacci-order periodicity, making them ideal candidates for wavelet decomposition.
 - **Biology Example:** **Bioelectric signaling in regenerative organisms** shows self-organizing wave behaviors that can be mapped via Fibonacci wavelets.
 
-### **2️⃣ Decomposing E8 Gauge Symmetry into Five Fundamental Fields**
+### **2️⃣ Solitonic Wave Equations** (Nonlinear Wave Propagation)
+- **Mathematics:** Describes how nonlinear waves behave in a deformable lattice, leading to **topological stability** and **holographic memory encoding**.
+- **Physics Example:** **Gauge field interactions in early-universe inflation models** exhibit solitonic-like behavior.
+- **Material Science Example:** **Magnon excitations in topological insulators** behave as spin solitons, forming localized structures that propagate within a medium.
+- **Biology Example:** **Neural wave propagation in bioelectric tissues** functions as a solitonic information storage mechanism.
+
+
+### **3️⃣ Reciprocal Hamiltonian Dynamics** (Gauge-Constrained Field Evolution)
+- **Mathematics:** Evolution equations governing **Fourier-space Hamiltonians with lattice pressure corrections**.
+- The **reciprocal Hamiltonian** governs how wavevector $k$ and conjugate momentum $p$ evolve:
+
+```math
+  \frac{dk}{dt} = \frac{\partial H}{\partial p'}
+```
+
+```math
+  \frac{dp'}{dt} = -\frac{\partial H}{\partial k} + \lambda_p p' - P_{\text{lattice}}
+```
+
+  where:
+  - $H(k, p')$ is the **Hamiltonian function** governing system evolution.
+  - $p' = p - A$ is the **gauge-invariant momentum**.
+  - $P_{\text{lattice}}$ represents the **lattice pressure correction** arising from holographic constraints.
+- **Physics Example:** **Quantum field theory in curved spacetime** requires reciprocal space analysis for renormalization and holographic dualities.
+- **Material Science Example:** **Band structure calculations for condensed matter systems** use reciprocal Hamiltonians to determine electronic transport properties.
+- **Biology Example:** **Reaction-diffusion models of cellular signaling** can be analyzed through reciprocal space dynamics.
+
+
+
+### **4️⃣ Tetrad Lattice Evolution and U(1) Phase Symmetry Breaking**
+- **Mathematics:** The tetrad lattice evolves with an applied **U(1) phase shift**.
+- The tetrads $e^a_\mu$ represent local frames of reference, evolving as:
+
+```math
+  e' = e + \alpha \cdot \text{deformation} + e^{i\theta} e
+```
+  
+  where:
+  - $\alpha$ is a deformation scaling factor.
+  - $e^{i\theta}$ enforces **U(1) phase accumulation, breaking time symmetry**.
+  
+- **Entropy and Causality:** The **irreversibility of time** emerges because phase shifts accumulate, leading to **entropy growth as a smearing effect**.
+- **Physics Example:** **Black hole event horizons encode information loss via phase accumulation.**
+- **Material Science Example:** **Charge transport in disordered lattices exhibits time asymmetry due to phase decoherence.**
+- **Biology Example:** **Aging is a consequence of accumulated phase decoherence in biological memory storage.**
+
+### ** 5️⃣ Decomposing E8 Gauge Symmetry into Five Fundamental Fields**
 The fundamental gauge fields in HLD-JAX originate from **E8 symmetry breaking** through sequential reductions, leading to five gauge interactions:
 
 #### **➤ E8 Symmetry Breaking Cascade**
@@ -62,52 +108,6 @@ These breakdowns yield the five gauge symmetries encoding **physical, material, 
 
 Each of these gauge fields is encoded within the tetrad lattice, governing how memory states propagate and self-organize. Understanding these reductions enables the application of HLD-JAX across diverse scientific domains.
 
-
-### **3️⃣ Solitonic Wave Equations** (Nonlinear Wave Propagation)
-- **Mathematics:** Describes how nonlinear waves behave in a deformable lattice, leading to **topological stability** and **holographic memory encoding**.
-- **Physics Example:** **Gauge field interactions in early-universe inflation models** exhibit solitonic-like behavior.
-- **Material Science Example:** **Magnon excitations in topological insulators** behave as spin solitons, forming localized structures that propagate within a medium.
-- **Biology Example:** **Neural wave propagation in bioelectric tissues** functions as a solitonic information storage mechanism.
-
-
-### **4️⃣ Reciprocal Hamiltonian Dynamics** (Gauge-Constrained Field Evolution)
-- **Mathematics:** Evolution equations governing **Fourier-space Hamiltonians with lattice pressure corrections**.
-- The **reciprocal Hamiltonian** governs how wavevector $k$ and conjugate momentum $p$ evolve:
-
-```math
-  \frac{dk}{dt} = \frac{\partial H}{\partial p'}
-```
-
-```math
-  \frac{dp'}{dt} = -\frac{\partial H}{\partial k} + \lambda_p p' - P_{\text{lattice}}
-```
-
-  where:
-  - $H(k, p')$ is the **Hamiltonian function** governing system evolution.
-  - $p' = p - A$ is the **gauge-invariant momentum**.
-  - $P_{\text{lattice}}$ represents the **lattice pressure correction** arising from holographic constraints.
-- **Physics Example:** **Quantum field theory in curved spacetime** requires reciprocal space analysis for renormalization and holographic dualities.
-- **Material Science Example:** **Band structure calculations for condensed matter systems** use reciprocal Hamiltonians to determine electronic transport properties.
-- **Biology Example:** **Reaction-diffusion models of cellular signaling** can be analyzed through reciprocal space dynamics.
-
-
-
-### **5️⃣ Tetrad Lattice Evolution and U(1) Phase Symmetry Breaking**
-- **Mathematics:** The tetrad lattice evolves with an applied **U(1) phase shift**.
-- The tetrads $e^a_\mu$ represent local frames of reference, evolving as:
-
-```math
-  e' = e + \alpha \cdot \text{deformation} + e^{i\theta} e
-```
-  
-  where:
-  - $\alpha$ is a deformation scaling factor.
-  - $e^{i\theta}$ enforces **U(1) phase accumulation, breaking time symmetry**.
-  
-- **Entropy and Causality:** The **irreversibility of time** emerges because phase shifts accumulate, leading to **entropy growth as a smearing effect**.
-- **Physics Example:** **Black hole event horizons encode information loss via phase accumulation.**
-- **Material Science Example:** **Charge transport in disordered lattices exhibits time asymmetry due to phase decoherence.**
-- **Biology Example:** **Aging is a consequence of accumulated phase decoherence in biological memory storage.**
 
 ## **6. Free Energy and Sparsification**
 - **Mathematics:** Free energy is defined as:
