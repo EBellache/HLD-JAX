@@ -62,7 +62,7 @@ The **HLD-JAX core** is built on six key mathematical components:
 - **Material Science Example:** **Charge transport in disordered lattices exhibits time asymmetry due to phase decoherence.**
 - **Biology Example:** **Aging is a consequence of accumulated phase decoherence in biological memory storage.**
 
-### **5️⃣ Decomposing E8 Gauge Symmetry into Five Fundamental Fields** (Five fundamental Gauge Fields)
+### **5️⃣ Decomposing E8 Gauge Symmetry into Fundamental Fields** (The Five fundamental Gauge Fields)
 The fundamental gauge fields in HLD-JAX originate from **E8 symmetry breaking** through sequential reductions, leading to five gauge interactions:
 
 #### **➤ E8 Symmetry Breaking Cascade**
