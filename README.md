@@ -3,15 +3,15 @@
 ## **Overview**
 HLD-JAX (**Holographic Learning Dynamics**) is a computational framework for modeling **holographic memory states** using advanced mathematical methods including **Fibonacci wavelets, solitonic wave equations, reciprocal Hamiltonian dynamics, and gauge field projections on tetradic lattices**. The library is written in the python high performance computing libray JAX. It is substrate and force-field agnostic, applying to **physics, material science, and biology**, as long as the system follows **tetradic symmetries and gauge constraints**.
 
-HLD-JAX provides a **general-purpose mathematical framework** for studying **how information encodes, propagates, and interacts with a structured lattice**. This library has the ambition of one day serving as a **computational manual for holographic encoding**, analogous to a **modern-day philosopher's stone** for understanding complex systems. 
+HLD-JAX provides a **general-purpose mathematical framework** for studying **how information encodes, propagates, and interacts with a structured lattice**. This library has the ambition of one day serving as a **computational manual for holographic encoding** and understanding complex systems. 
 
 Contributions are highly welcome!
 
 ## **Core Mathematical Framework**
 The **HLD-JAX core** is built on six key mathematical components:
 
-### **1️⃣ Fibonacci Wavelet Transform** (Self-Similar Decomposition)
-- **Mathematics:** Uses Fibonacci scaling in wavelet transforms to analyze **self-similar structures** in field dynamics.
+### **1️⃣ Hyperbolic Wavelets Transform** (Self-Similar Decomposition)
+- **Mathematics:** Uses Fibonacci scaling in hyperbolic wavelet transforms to analyze **self-similar structures** in field dynamics, hyberbolic wavelets are **robust to anisotropic systems**.
 - **Physics Example:** **Cosmological structure formation** follows fractal-like distributions that can be analyzed via Fibonacci wavelets.
 - **Material Science Example:** **Spin-lattice interactions in quasicrystals** exhibit Fibonacci-order periodicity, making them ideal candidates for wavelet decomposition.
 - **Biology Example:** **Bioelectric signaling in regenerative organisms** shows self-organizing wave behaviors that can be mapped via Fibonacci wavelets.
@@ -149,6 +149,7 @@ coeffs, freqs = fibonacci_wavelets.fibonacci_wavelet_transform(signal)
 
 ## **Recommended Reading**
 - **Loop Quantum Gravity & Tetrad Geometry:** *Rovelli, C. "Quantum Gravity."*
+- **Hyperbolic wavelet transform:** : "Hyperbolic wavelet transform: an efficient tool for multifractal analysis of anisotropic fields" https://ems.press/journals/rmi/articles/13001
 - **Self-Interaction and Solitonic Waves:** *Zakharov, V. "Solitons and Nonlinear Waves."*
 - **All-Optical Control of Charge-Trapping Defects:** *All-optical control of charge-trapping defects in rare-earth doped oxides.* https://doi.org/10.1515/nanoph-2024-0635
 - **Magnon and Spin Waves:** *Stancil, D. "Spin Waves: Theory and Applications."*
