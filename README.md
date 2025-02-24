@@ -161,6 +161,6 @@ coeffs, freqs = fibonacci_wavelets.fibonacci_wavelet_transform(signal)
 ## **Contributions**
 See `CONTRIBUTIONS.md` for details on how to contribute to the project. We welcome insights from physics, materials science, and biology experts to expand the reach of HLD-JAX!
 
-🚀 **HLD-JAX is a unified computational framework for understanding self-organizing structures in physics, materials, and biology. Let’s redefine holographic memory states together!**
+🚀 **HLD-JAX is a unified computational framework for understanding self-organizing structures in physics, materials, and biology. We aspire thanks to it to explore new horizons and uncharted territories in hologaphic memory**
 
 
