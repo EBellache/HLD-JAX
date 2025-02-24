@@ -70,9 +70,9 @@ The **HLD-JAX core** is built on six key mathematical components:
 
 ---
 
-### **Memory States as Stable Geodesic Paths**
+### **Memory States as Stable Geodesic Paths** (The key idea at the center of the HLD-JAX framewok!!)
 
-  #### **The key idea at the center of the HLD-JAX framewok!!**
+  #### **The memory as path dependence principle:**
 
 - **Mathematics:** In a structured bioelectric or physical system, **memory corresponds to stable geodesic paths** in the underlying tetradic space. These geodesics define the **least-action pathways of bioelectric, metabolic, or informational flows**, ensuring long-term stability of encoded states.
 
