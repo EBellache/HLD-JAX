@@ -30,11 +30,13 @@ The **HLD-JAX core** is built on four key mathematical components:
 
 ### **3️⃣ Reciprocal Hamiltonian Dynamics** (Gauge-Constrained Field Evolution)
 - **Mathematics:** Evolution equations governing **Fourier-space Hamiltonians with lattice pressure corrections**.
-- The **reciprocal Hamiltonian** governs how wavevector \( k \) and conjugate momentum \( p \) evolve:
+- The **reciprocal Hamiltonian** governs how wavevector $k$ and conjugate momentum $p$ evolve:
 
 ```math
   \frac{dk}{dt} = \frac{\partial H}{\partial p'}
+```
 
+```math
   \frac{dp'}{dt} = -\frac{\partial H}{\partial k} + \lambda_p p' - P_{\text{lattice}}
 ```
 
