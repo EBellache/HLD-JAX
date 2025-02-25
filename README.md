@@ -77,12 +77,12 @@ where $c_{j,k}$ are wavelet coefficients encoding structured knowledge.
 - **Soliton waves act as robust, self-reinforcing computational pathways:**
 
 $$
-\Psi(x,t) = A \sech \left( \frac{x - vt}{\Delta} \right) e^{i(kx - \omega t)}
+\Psi(x,t) = A sech \left( \frac{x - vt}{\Delta} \right) e^{i(kx - \omega t)}
 $$
   
 ensuring persistence and stability of encoded information.
 
-**Mathematical choices:** We use hyberbolic wavelets as they are **robust in anisotropic systems**. The wavelet scaling factor is the Fibonacci number, to analyze **self-similar structures** in field dynamics, 
+**Mathematical choices:** We use hyberbolic wavelets as they are **robust to anisotropy and resemble solitions**. The wavelet scaling factor is the Fibonacci number, to analyze **self-similar structures** in field dynamics, 
 
 
 📌 **Why this is critical:**
