@@ -62,7 +62,7 @@ The triads $e^a_\mu$ represent local frames of reference, evolving as:
   - $\alpha$ is a deformation scaling factor.
   - $e^{i\theta}$ enforces **U(1) phase accumulation, breaking time symmetry**.
   
-- **Entropy and Causality:** The **irreversibility of time** emerges because phase shifts accumulate, leading to **entropy growth as a smearing effect**.
+- **Entropy and Causality:** The **irreversibility of time** emerges because phase shifts accumulate in the underlying spin lattice, leading to **entropy growth as a smearing effect**.
 
 
 ### **3️⃣ Wavelets & Soliton Interactions: The Tools for Etching Memory**
