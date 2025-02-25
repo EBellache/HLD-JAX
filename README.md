@@ -72,15 +72,15 @@ $$
 W(x) = \sum_{j,k} c_{j,k} \psi_{j,k}(x)
 $$
   
-  where $c_{j,k}$ are wavelet coefficients encoding structured knowledge.
+where $c_{j,k}$ are wavelet coefficients encoding structured knowledge.
   
 - **Soliton waves act as robust, self-reinforcing computational pathways:**
 
-  $
-  \Psi(x,t) = A \operatorname{sech} \left( \frac{x - vt}{\Delta} \right) e^{i(kx - \omega t)}
-  $$
+$$
+\Psi(x,t) = A \operatorname{sech} \left( \frac{x - vt}{\Delta} \right) e^{i(kx - \omega t)}
+$$
   
-  ensuring persistence and stability of encoded information.
+ensuring persistence and stability of encoded information.
 
 **Mathematical choices:** We use hyberbolic wavelets as they are **robust in anisotropic systems**. The wavelet scaling factor is the Fibonacci number, to analyze **self-similar structures** in field dynamics, 
 
@@ -97,9 +97,9 @@ The core principle of HLD is that **memory and computation emerge from topologic
 #### **Geodesic States = Memory**
 - Information is stored in **geodesic trajectories on the computational lattice**:
 
-  $$
-  S = \int g_{\mu \nu} dx^\mu dx^\nu
-  $$
+$$
+S = \int g_{\mu \nu} dx^\mu dx^\nu
+$$
   
 - **Longer geodesics correspond to deeper memory retrieval processes.**
 - **Shorter geodesics allow for fast, low-energy recall.**
@@ -107,20 +107,20 @@ The core principle of HLD is that **memory and computation emerge from topologic
 #### **Loops & Holonomies = Computation**
 - **Wilson loops act as fundamental computational units:**
 
-  $$
-  W(C) = \text{Tr} P \exp \left( i \oint_C A \right)
-  $$
+$$
+W(C) = \text{Tr} P \exp \left( i \oint_C A \right)
+$$
   
 - **Holonomies define how information transforms when parallel transported around the memory network.**
 
 - **Memory Loss as Smearing:** When external perturbations or entropy accumulation disrupt geodesic trajectories, the system transitions from **stable geodesic memory encoding to a path integral formulation**:
 
-  $$
-  P(x) = \int \mathcal{D}[x] e^{-S[x]/\hbar}
-  $$
+$$
+P(x) = \int \mathcal{D}[x] e^{-S[x]/\hbar}
+$$
   
-  where:
-  
+where:
+
   - **$P(x)$** represents the probabilistic spread of possible pathways.
   
   - **$S[x]$** is the action integral defining geodesic stability.
@@ -138,9 +138,9 @@ HLD introduces a **thermodynamic perspective on learning**, where **working memo
 #### **Free Energy = Working Memory**
 - **Defined as the information-processing capacity of a system:**
 
-  $$
-  F = E - TS
-  $$
+$$
+F = E - TS
+$$
 
 
 - $U$ is internal energy.
@@ -155,11 +155,10 @@ HLD introduces a **thermodynamic perspective on learning**, where **working memo
 #### **Entropy = Loss of Memory Capacity**
 - **Entropy measures the information degradation over time:**
   
-  $$
-  S = - \sum p_i \log p_i
-  $$
-  
-  
+$$
+S = - \sum p_i \log p_i
+$$
+    
 - $p_i$ represents the normalized phase distribution of the system. This measures **how uniformly phase information is distributed across the triad lattice**, capturing the degree of coherence loss.
   
 - **Entropy must be managed carefully; too much leads to memory degradation.**
@@ -169,11 +168,11 @@ HLD introduces a **thermodynamic perspective on learning**, where **working memo
 
 - **A sparsification function should act as an energy minimization constraint:**
   
-  $$
-  \arg\min \sum_{i} ||M_i||_1 \quad \text{subject to } \sum_i M_i = C
-  $$
+$$
+\arg\min \sum_{i} ||M_i||_1 \quad \text{subject to } \sum_i M_i = C
+$$
   
-  ensuring that memory states remain structured and non-redundant.
+ensuring that memory states remain structured and non-redundant.
 
 - **Physics Example:** Filtered tomographic reconstruction removes noise and restores useful signal information.
 - **Biology Example:** **Sparsification of bioelectric signals may be how certain atypical organisms are able to reset aging phenotypes.**
