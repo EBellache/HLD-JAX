@@ -77,7 +77,7 @@ where $c_{j,k}$ are wavelet coefficients encoding structured knowledge.
 - **Soliton waves act as robust, self-reinforcing computational pathways:**
 
 $$
-\Psi(x,t) = A \operatorname{sech} \left( \frac{x - vt}{\Delta} \right) e^{i(kx - \omega t)}
+\Psi(x,t) = A \sech \left( \frac{x - vt}{\Delta} \right) e^{i(kx - \omega t)}
 $$
   
 ensuring persistence and stability of encoded information.
