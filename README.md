@@ -33,6 +33,8 @@ $$
 
 which ensures optimal information encoding and retrieval.
 
+---
+
 ### **2️⃣ The Five Layers of Holographic Learning (Gauge Interactions & E8 Decomposition)**
 The holographic learning model is structured across **five fundamental gauge interactions**, decomposed from **E8 symmetry**:
 
@@ -64,6 +66,7 @@ The triads $e^a_\mu$ represent local frames of reference, evolving as:
   
 - **Entropy and Causality:** The **irreversibility of time** emerges because phase shifts accumulate in the underlying spin lattice, leading to **entropy growth as a smearing effect**.
 
+---
 
 ### **3️⃣ Wavelets & Soliton Interactions: The Tools for Etching Memory**
 Unlike static weight matrices, **HLD encodes information dynamically via wavelets and soliton interactions**:
@@ -90,7 +93,7 @@ ensuring persistence and stability of encoded information.
 - **Learning systems must adapt over time, rather than simply memorizing static weights.**
 - **Holographic encoding allows a balance between generalization and specificity.**
 
-
+---
 
 ### **4️⃣ Memory & Computation from Topology**
 The core principle of HLD is that **memory and computation emerge from topological constraints**:
@@ -132,6 +135,7 @@ where:
 📌 **Key insight:**
 - **Restoring Memory = Geodesic Realignment:** If **a perturbed system is returned to its original geodesic path**, memory and function can be restored.
 
+---
 
 ### **5️⃣ Free Energy, Entropy & Sparsification**
 HLD introduces a **thermodynamic perspective on learning**, where **working memory is equivalent to free energy**:
