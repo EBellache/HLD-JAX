@@ -196,8 +196,8 @@ ensuring that memory states remain structured and non-redundant.
 |----------------|---------|----------|--------------|----------------|
 | **U(1)** | **Electromagnetic Field** | **Bioelectricity** | **Activation States in AI** | **Surface Charge Distribution** |
 | **SU(2)** | **Weak Force, Spin Networks** | **Epigenetic switching** | **Sequential Learning & Oscillations** | **Magnonic Computation** |
-| **SU(3)** | **Quantum Chromodynamics (QCD)** | **Genomic Memory (DNA 3 letter Codons)** | **Hierarchical Deep Representations** | **Crystallographic Phase Transitions** |
-| **Substrate SU(2)** | **Loop Quantum Gravity Spin Foam** | **ATP/ADP cycling in energy systems** | **Topological Neural Computation** | **Metamaterials for Information Processing** |
+| **SU(3)** | **Quantum Chromodynamics (QCD)** | **Genomic Memory (DNA 3 letter Codons)** | **Self Attention in Transformers** | **Crystallographic Phase Transitions** |
+| **Substrate SU(2)** | **Loop Quantum Gravity Spin Foam** | **ATP/ADP cycling in energy systems** | **Yet to be invented** | **Metamaterials for Information Processing** |
 | **Substrate U(1)** | **Arrow of Time, Causal Structure** | **Aging and regeneration** | **Entropy-Driven Learning Adjustments** | **Irreversible Phase Transitions** |
 
 🚀 **Key Takeaway:** HLD provides a **unified language** across physics, biology, AI, and materials science for **structured memory encoding and computation.**
