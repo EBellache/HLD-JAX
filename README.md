@@ -41,7 +41,7 @@ The holographic learning model is structured across **five fundamental gauge int
 
 | **Gauge Interaction** | **Memory Function** | **Role in Learning & Computation** |
 |----------------|----------------------|---------------------------------|
-| **U(1)** | **Short-Term Memory** | Phase smearing introduces initial memory & arrow of time. |
+| **U(1)** | **Short-Term Memory** | Simple combinatorial functions. |
 | **SU(2)** | **Medium-Term Memory** | Governs structured oscillations, forming sequential reasoning states. |
 | **SU(3)** | **Long-Term Memory** | Stores hierarchical representations and deep generalization patterns. |
 | **Substrate SU(2)** | **Computational Topology** | Enforces geodesic constraints, allowing memory retrieval via topological structures. |
