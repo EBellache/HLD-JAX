@@ -55,7 +55,7 @@ where $A_t$ is the **gauge field controlling knowledge accumulation** and $M$ re
 The triads $e^a_\mu$ represent local frames of reference, evolving as:
 
 ```math
-  e' = e + \alpha \cdot \text{deformation} + \exp^{i\theta} e
+  e' = e + \alpha \cdot \text{deformation} + \exp({i\theta}) e
 ```
   
   where:
@@ -67,7 +67,7 @@ The triads $e^a_\mu$ represent local frames of reference, evolving as:
 ### **3️⃣ Wavelets & Soliton Interactions: The Tools for Etching Memory**
 Unlike static weight matrices, **HLD encodes information dynamically via wavelets and soliton interactions**:
 - **Wavelets encode multi-scale memory representations:**
-- 
+  
   $$
   W(x) = \sum_{j,k} c_{j,k} \psi_{j,k}(x)
   $$
