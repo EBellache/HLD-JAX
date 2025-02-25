@@ -64,6 +64,7 @@ The triads $e^a_\mu$ represent local frames of reference, evolving as:
   
 - **Entropy and Causality:** The **irreversibility of time** emerges because phase shifts accumulate, leading to **entropy growth as a smearing effect**.
 
+
 ### **3️⃣ Wavelets & Soliton Interactions: The Tools for Etching Memory**
 Unlike static weight matrices, **HLD encodes information dynamically via wavelets and soliton interactions**:
 - **Wavelets encode multi-scale memory representations:**
@@ -177,10 +178,7 @@ ensuring that memory states remain structured and non-redundant.
 - **Physics Example:** Filtered tomographic reconstruction removes noise and restores useful signal information.
 - **Biology Example:** **Sparsification of bioelectric signals may be how certain atypical organisms are able to reset aging phenotypes.**
 
-
-📌 **Key insight:**
-- **HLD integrates sparsification to prevent neural interference and optimize retrieval.**
-
+---
 
 ## **🔬 Comparative Table: The 5 Layers Engenieering Approach Across Domains**
 
