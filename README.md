@@ -82,7 +82,7 @@ $$
   
 ensuring persistence and stability of encoded information.
 
-**Mathematical choices:** We use hyberbolic wavelets as they are **robust to anisotropy and resemble solitions**. The wavelet scaling factor is the Fibonacci number, to analyze **self-similar structures** in field dynamics, 
+**Mathematical choices:** We use hyberbolic wavelets as they are **robust to anisotropy and resemble solitions**. The wavelet **scaling factor is the Fibonacci number**, to analyze **self-similar structures** in field dynamics, 
 
 
 📌 **Why this is critical:**
