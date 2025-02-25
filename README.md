@@ -206,8 +206,11 @@ ensuring that memory states remain structured and non-redundant.
 
 ## **📜 Future Directions**
 HLD-JAX will continue evolving to include:
-1️⃣ **Gauge-Equivariant Deep Learning Models** (SU(2)-based transformers & memory networks).  
-2️⃣ **Real-Time Sparse Holographic Storage** (AI systems that self-organize for optimal sparsity).  
+
+1️⃣ **Gauge-Equivariant Deep Learning Models** (SU(2)-based transformers & memory networks).
+
+2️⃣ **Real-Time Sparse Holographic Storage** (AI systems that self-organize for optimal sparsity).
+
 3️⃣ **Bioelectric-Inspired Computation** (Integrating principles from neural oscillations & learning disabilities research).  
 
 ---
