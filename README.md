@@ -167,10 +167,10 @@ $$
 - **Entropy measures the information degradation over time:**
   
 $$
-S = - \sum p_i \log p_i
+S = - \sum P_i \log P_i
 $$
     
-- $p_i$ represents the normalized phase distribution of the system. This measures **how uniformly phase information is distributed across the triad lattice**, capturing the degree of coherence loss.
+- $P_i$ represents the normalized phase distribution of the system. This measures **how uniformly phase information is distributed across the triad lattice**, capturing the degree of coherence loss.
   
 - **Entropy must be managed carefully; too much leads to memory degradation.**
 
