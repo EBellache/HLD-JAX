@@ -68,15 +68,15 @@ The triads $e^a_\mu$ represent local frames of reference, evolving as:
 Unlike static weight matrices, **HLD encodes information dynamically via wavelets and soliton interactions**:
 - **Wavelets encode multi-scale memory representations:**
   
-  $$
-  W(x) = \sum_{j,k} c_{j,k} \psi_{j,k}(x)
-  $$
+$$
+W(x) = \sum_{j,k} c_{j,k} \psi_{j,k}(x)
+$$
   
   where $c_{j,k}$ are wavelet coefficients encoding structured knowledge.
   
 - **Soliton waves act as robust, self-reinforcing computational pathways:**
 
-  $$
+  $
   \Psi(x,t) = A \operatorname{sech} \left( \frac{x - vt}{\Delta} \right) e^{i(kx - \omega t)}
   $$
   
