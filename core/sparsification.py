@@ -1,27 +1,51 @@
 import jax.numpy as jnp
-from jax import jit
+from jax import jit, vmap
 
 
 @jit
-def fibonacci_sparsification_mask(size, phi=(1 + jnp.sqrt(5)) / 2):
-    """Generates a sparsification mask based on Fibonacci scaling."""
-    indices = jnp.floor(phi ** jnp.arange(size)) % size
-    mask = jnp.zeros(size)
-    mask = mask.at[indices.astype(int)].set(1)
-    return mask
+def apply_sparsification(data, threshold=0.05):
+    """
+    Applies structured sparsification by removing low-amplitude components.
+
+    Args:
+        data (jax.numpy.array): Input tensor to be sparsified.
+        threshold (float): Minimum magnitude to retain elements.
+
+    Returns:
+        jax.numpy.array: Sparsified data.
+    """
+    return jnp.where(jnp.abs(data) > threshold, data, 0)
 
 
 @jit
-def apply_fibonacci_sparsification(signal):
-    """Applies Fibonacci sparsification to a given signal by masking certain frequencies."""
-    size = signal.shape[0]
-    mask = fibonacci_sparsification_mask(size)
-    return signal * mask
+def adaptive_sparsification(data, entropy_field, scaling_factor=0.1):
+    """
+    Dynamically adjusts sparsification threshold based on entropy accumulation.
+
+    Args:
+        data (jax.numpy.array): Input tensor.
+        entropy_field (jax.numpy.array): Local entropy measurement field.
+        scaling_factor (float): Controls how entropy affects sparsification.
+
+    Returns:
+        jax.numpy.array: Adaptively sparsified data.
+    """
+    adaptive_threshold = scaling_factor * jnp.abs(entropy_field)
+    return jnp.where(jnp.abs(data) > adaptive_threshold, data, 0)
 
 
 @jit
-def apply_wavelet_sparsification(wavelet_coeffs, threshold=0.1):
-    """Applies sparsification by zeroing out low-magnitude wavelet coefficients."""
-    abs_coeffs = jnp.abs(wavelet_coeffs)
-    mask = jnp.where(abs_coeffs > threshold * jnp.max(abs_coeffs), 1, 0)
-    return wavelet_coeffs * mask
+def fibonacci_sparsification(data, phi=(1 + jnp.sqrt(5)) / 2, num_levels=5):
+    """
+    Applies a Fibonacci-based hierarchical sparsification method.
+
+    Args:
+        data (jax.numpy.array): Input tensor.
+        phi (float): Golden ratio scaling factor.
+        num_levels (int): Number of hierarchical sparsification levels.
+
+    Returns:
+        jax.numpy.array: Hierarchically sparsified data.
+    """
+    scales = jnp.array([phi ** (-i) for i in range(num_levels)])
+    return vmap(lambda s: apply_sparsification(data * s))(scales).sum(axis=0)

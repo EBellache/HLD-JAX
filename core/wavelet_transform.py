@@ -1,5 +1,5 @@
 import jax.numpy as jnp
-from jax import jit, grad, vmap, pmap
+from jax import jit, vmap
 
 
 @jit

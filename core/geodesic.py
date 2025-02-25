@@ -1,92 +1,63 @@
 import jax.numpy as jnp
-from jax import jit, grad
-
+from jax import jit, grad, vmap
 
 @jit
-def compute_geodesic_trajectory(initial_state, metric_tensor, timesteps=100, step_size=0.01):
+def compute_geodesic(initial_state, metric_tensor, steps=100, step_size=0.01):
     """
-    Computes geodesic trajectory given an initial state and metric tensor.
+    Computes geodesic trajectory given a metric tensor in the triad lattice.
 
     Args:
         initial_state (jax.numpy.array): Initial position and velocity.
-        metric_tensor (function): Function that computes the metric tensor at a given state.
-        timesteps (int): Number of steps to compute.
-        step_size (float): Integration step size.
+        metric_tensor (function): Function computing the metric tensor at a given state.
+        steps (int): Number of integration steps.
+        step_size (float): Step size for numerical integration.
 
     Returns:
-        jax.numpy.array: Geodesic trajectory over time.
+        jax.numpy.array: Computed geodesic trajectory.
     """
-
-    def geodesic_equation(state):
-        position, velocity = state[:len(state) // 2], state[len(state) // 2:]
-        metric = metric_tensor(position)
-        christoffel = -0.5 * jnp.einsum('ijk,j->ik', grad(metric, argnums=0)(position), velocity)
-        return jnp.concatenate([velocity, christoffel @ velocity])
+    def equation(state):
+        pos, vel = state[:3], state[3:]
+        metric = metric_tensor(pos)
+        christoffel = -0.5 * jnp.einsum('ijk,j->ik', grad(metric, argnums=0)(pos), vel)
+        return jnp.concatenate([vel, christoffel @ vel])
 
     trajectory = [initial_state]
     state = initial_state
-    for _ in range(timesteps):
-        state = state + step_size * geodesic_equation(state)
+    for _ in range(steps):
+        state = state + step_size * equation(state)
         trajectory.append(state)
     return jnp.array(trajectory)
 
 
 @jit
-def apply_perturbation(trajectory, perturbation):
+def compute_smearing_effect(geodesic_trajectory, phase_field, smearing_coefficient=0.05):
     """
-    Applies an external perturbation to the geodesic trajectory.
+    Computes the smearing effect on geodesic trajectories due to phase accumulation.
 
     Args:
-        trajectory (jax.numpy.array): Original geodesic trajectory.
-        perturbation (function): Function defining the perturbation over time.
+        geodesic_trajectory (jax.numpy.array): Array of geodesic points.
+        phase_field (jax.numpy.array): Phase accumulation field.
+        smearing_coefficient (float): Strength of the smearing effect.
 
     Returns:
-        jax.numpy.array: Perturbed trajectory.
+        jax.numpy.array: Smearing-affected geodesic.
     """
-    return trajectory + perturbation(jnp.arange(len(trajectory)))
+    phase_gradient = jnp.gradient(phase_field)
+    return geodesic_trajectory + smearing_coefficient * phase_gradient[:geodesic_trajectory.shape[0]]
 
 
 @jit
-def compute_smearing_effect(trajectory, diffusion_coefficient=0.05):
+def apply_perturbation(geodesic_trajectory, perturbation_field, perturbation_strength=0.1):
     """
-    Computes smearing effects due to entropy accumulation along a geodesic.
+    Applies external perturbations to geodesic trajectories.
 
     Args:
-        trajectory (jax.numpy.array): Geodesic trajectory.
-        diffusion_coefficient (float): Strength of diffusion applied over time.
+        geodesic_trajectory (jax.numpy.array): Array of geodesic points.
+        perturbation_field (jax.numpy.array): External perturbation field.
+        perturbation_strength (float): Magnitude of the perturbation.
 
     Returns:
-        jax.numpy.array: Smeared trajectory.
+        jax.numpy.array: Perturbed geodesic trajectory.
     """
-    noise = diffusion_coefficient * jnp.cumsum(jnp.random.normal(size=trajectory.shape), axis=0)
-    return trajectory + noise
-
-
-@jit
-def compute_su2_su3_geodesics(initial_state, su2_torsion_field, su3_helical_dislocation, timesteps=100, step_size=0.01):
-    """
-    Computes geodesic trajectory under SU(2) and SU(3) gauge interactions using Loop Quantum Gravity principles.
-
-    Args:
-        initial_state (jax.numpy.array): Initial position and velocity.
-        su2_torsion_field (function): Function defining SU(2) torsion in the lattice.
-        su3_helical_dislocation (function): Function defining SU(3) helical curvature and dislocation.
-        timesteps (int): Number of steps to compute.
-        step_size (float): Integration step size.
-
-    Returns:
-        jax.numpy.array: Geodesic trajectory over time.
-    """
-
-    def geodesic_equation(state):
-        position, velocity = state[:len(state) // 2], state[len(state) // 2:]
-        torsion_correction = su2_torsion_field(position) @ velocity
-        helical_dislocation = su3_helical_dislocation(position) @ velocity
-        return jnp.concatenate([velocity, torsion_correction + helical_dislocation])
-
-    trajectory = [initial_state]
-    state = initial_state
-    for _ in range(timesteps):
-        state = state + step_size * geodesic_equation(state)
-        trajectory.append(state)
-    return jnp.array(trajectory)
+    perturbation = perturbation_strength * perturbation_field[:geodesic_trajectory.shape[0]]
+    return geodesic_trajectory + perturbation
