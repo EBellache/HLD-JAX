@@ -17,6 +17,33 @@ def apply_sparsification(data, threshold=0.05):
     return jnp.where(jnp.abs(data) > threshold, data, 0)
 
 
+import jax.numpy as jnp
+from jax import jit
+
+
+@jit
+def bistable_sparsification(data, low_threshold=0.05, high_threshold=0.15):
+    """
+    Applies bistable sparsification by pushing values toward one of two stable states.
+
+    Args:
+        data (jax.numpy.array): Input wavelet-transformed bioelectric signal.
+        low_threshold (float): Lower threshold for suppression.
+        high_threshold (float): Upper threshold for bistability.
+
+    Returns:
+        jax.numpy.array: Sparsified signal with forced bistability.
+    """
+    # Suppress low-energy states
+    sparsified_data = jnp.where(jnp.abs(data) < low_threshold, 0, data)
+
+    # Push data into one of two stable attractor states
+    sparsified_data = jnp.where(jnp.abs(sparsified_data) > high_threshold,
+                                jnp.sign(sparsified_data), sparsified_data)
+
+    return sparsified_data
+
+
 @jit
 def adaptive_sparsification(data, entropy_field, scaling_factor=0.1):
     """
